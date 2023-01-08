@@ -1,0 +1,467 @@
+<style>
+.bridgeheading {
+    display: flex;
+    align-items: flex-end;
+}
+  .tabs {
+    display: flex;
+    position: relative;
+  }
+  .tabs .line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 6px;
+    border-radius: 15px;
+    background-color: #3858f6;
+    transition: all 0.2s ease;
+  }
+  .tab-item {
+    min-width: 80px;
+    padding: 10px 16px 10px 16px;
+    font-size: 18px;
+    text-align: center;
+    color: #3858f6;
+    border-bottom: 5px solid transparent;
+    opacity: 0.6;
+    cursor: pointer;
+    transition: all 0.5s ease;
+  }
+  .tab-icon {
+    font-size: 24px;
+    width: 32px;
+    position: relative;
+    top: 2px;
+  }
+  .tab-item:hover {
+    opacity: 1;
+    background-color: rgba(160, 173, 241,0.2);
+    border-color: rgba(160, 173, 241,0.5);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .tab-item.active {
+    color: #fff;
+    opacity: 1;
+    background-color: #12404e;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .tab-pane {
+    color: #fff;
+    display: none;
+    padding: 32px;
+    height: 400px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    word-wrap:break-word;
+    overflow-y:scroll;
+  }
+  .tab-pane::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: transparent;
+	border-radius: 8px;
+	background-color: transparent;
+}
+
+.tab-pane::-webkit-scrollbar
+{
+	width: 16px;
+	background-color: transparent;
+}
+
+.tab-pane::-webkit-scrollbar-thumb
+{
+	border-radius: 50px;
+    border: 4px solid transparent;
+    background-clip: padding-box;
+    background-color: rgb(201, 201, 201);
+}
+  .tab-pane.active {
+    display: block;
+    background-color: #12404e;
+  }
+  .tab-pane h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  .tab-pane p {
+    color: #fff;
+    display: flex;
+    margin: 0;
+  }
+  .tab-pane-label {
+    display: flex;
+    flex: 1;
+    font-weight: 600;
+}
+    .tab-pane a{
+    color: #fff
+}
+.tab-pane a:hover{
+    color: #3858f6
+}
+.contentimage {
+    border-radius: 10px;
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+}
+.maplocation {
+    border-radius: 10px;
+    width: 100%;
+    object-fit: center;
+    overflow: hidden;
+}
+
+.post_social_react{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.info_download {
+    border: 1px solid #CED0D4;
+    border-radius: 50px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+.info_download:hover{
+    background-color: #3858F6;
+    color: #fff;
+    border: 1px solid #3858F6;
+}
+</style>
+<div class="main-wrapper">
+    <div class="container" ng-controller="bridgedetailCtrl">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="bridgeheading mt--20">
+                    <h4 class="{{bridge.category}}" style="padding: 10px; text-transform: uppercase">{{bridge.category}}</h4>
+                    <h2 class="head mt--20">{{bridge.name}}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+                <img class="contentimage" src="./assets/images/slider/{{bridge.image}}" alt="{{bridge.info}}">
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="tabs">
+                        <div class="tab-item active">
+                        <i class="fa-solid fa-bolt"></i>
+                        Brief
+                        </div>
+                        <div class="tab-item">
+                        <i class="fa-solid fa-circle-info"></i>
+                        Information
+                        </div>
+                        <div class="tab-item">
+                        <i class="fa-solid fa-plane"></i>
+                        Guiding
+                        </div>
+                        <div class="line"></div>
+                    </div>
+            
+                    <!-- Tab content -->
+                    <div class="tab-content">
+                        <div class="tab-pane active">
+                            <p>{{bridge.description}}</p>
+                            <br>
+                            <p>See more:</p> <a href="{{bridge.link.website}}">{{bridge.link.website}}</a>
+                        </div>
+                        <div class="tab-pane">
+                            <p><span class="tab-pane-label">Country:</span>{{bridge.country}}</p>
+                            <p><span class="tab-pane-label">Height:</span>{{bridge.info.height}}</p>
+                            <p><span class="tab-pane-label">Length:</span>{{bridge.info.length}}</p>
+                            <p><span class="tab-pane-label">Year Built:</span>{{bridge.info.year}}</p>
+                            <p><span class="tab-pane-label">Number of visit per year:</span>{{bridge.info.visited}}</p>
+                        </div>
+                        <div class="tab-pane">
+                            <p class="tab-pane-label">Nearest Airport:</p>
+                            <li>{{bridge.transportation.flight1}}</li>
+                            <li>{{bridge.transportation.flight2}}</li>
+                            <br>
+                            <p class="tab-pane-label">Nearest Bus station:</p>
+                            <li>{{bridge.transportation.bus1}}</li>
+                            <li>{{bridge.transportation.bus2}}</li>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="post_social_react">
+                        <p class="my-3 head"><a href="#"><i class="fa-regular fa-heart"></i> 2.2k Like</a></p>
+                        <div class="starsrating"><p style="line-height: 14px; margin: 0 4px 0;"><span class="mr--10">Rating: </span></p>
+                            <li class="empty" ng-repeat="r in getRepeater() track by $index" ng-class="{'full': ($index + 1) <= bridge.info.rate, 'half': ($index + .5) == bridge.info.rate}"></li>
+                        </div>
+                    </div>
+                    <div class="post_social">
+                            <ul class="social-icon icon-rounded-transparent md-size">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                            <a href="./assets/download/{{bridge.link.download}}" class="info_download">
+                                Save PDF <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="fulldescription mt--30 pl--20 pr--20">
+            <p>{{bridge.fulldescription.p2}}</p>
+            <h4>{{bridge.fulldescription.h2}}</h4>
+            <p>{{bridge.fulldescription.p4}}</p>
+            <p>{{bridge.fulldescription.p5}}</p>
+            <p>{{bridge.fulldescription.p6}}</p>
+            <p>{{bridge.fulldescription.p7}}</p>
+            <p>{{bridge.fulldescription.p8}}</p>
+            <h4>{{bridge.fulldescription.h3}}</h4>
+            <p>{{bridge.fulldescription.p9}}</p>
+            <p>{{bridge.fulldescription.p10}}</p>
+        </div>
+        
+        <h3 class="head mt--40">Map Location</h3>  
+        <div class="maplocation">
+            <ng-map zoom="14" center="[{{bridge.map}}]">
+                <marker position="[{{bridge.map}}]" />
+                <shape name="circle" radius="400" center="[{{bridge.map}}]" radius="4000" />
+                <control name="overviewMap" opened="true" />
+            </ng-map>
+        </div>
+
+        <!-- Start Comment Form Area  -->
+        <div class="axil-comment-area">
+
+            <!-- Start Comment Respond  -->
+            <div class="comment-respond">
+                <h3 class="head mt--20">Post a comment</h3>
+                <form action="#">
+                    <p class="comment-notes"><span id="email-notes">Your email address will not be
+                            published.</span> Required fields are marked <span
+                            class="required">*</span></p>
+                    <div class="row row--10">
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input id="name" type="text">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input id="email" type="email">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="message">Leave a Reply</label>
+                                <textarea id="message" name="message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-submit cerchio float-right">
+                                <input name="submit" type="submit" id="submit" class="axil-button button-rounded" value="Post Comment">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+                <!-- End Comment Respond  -->
+                <!-- Start Comment Area  -->
+                <div class="axil-comment-area">
+                    <h4 class="title">2 comments</h4>
+                    <ul class="comment-list">
+                        <!-- Start Single Comment  -->
+                        <li class="comment">
+                            <div class="comment-body">
+                                <div class="single-comment">
+                                    <div class="comment-img">
+                                        <img src="./assets/images/author/author-b1.png" alt="Author Images">
+                                    </div>
+                                    <div class="comment-inner">
+                                        <h6 class="commenter">
+                                            <a class="hover-flip-item-wrapper" href="#">
+                                                <span class="hover-flip-item">
+                                                    <span data-text="Cameron Williamson">Cameron Williamson</span>
+                                                </span>
+                                            </a>
+                                        </h6>
+                                        <div class="comment-meta">
+                                            <div class="time-spent">Nov 23, 2018 at 12:23 pm</div>
+                                            <div class="reply-edit">
+                                                <div class="reply">
+                                                    <a class="comment-reply-link hover-flip-item-wrapper" href="#">
+                                                        <span class="hover-flip-item">
+                                                            <span data-text="Reply">Reply</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="comment-text">
+                                            <p class="b2">Duis hendrerit velit scelerisque felis tempus, id porta
+                                                libero venenatis. Nulla facilisi. Phasellus viverra
+                                                magna commodo dui lacinia tempus. Donec malesuada nunc
+                                                non dui posuere, fringilla vestibulum urna mollis.
+                                                Integer condimentum ac sapien quis maximus. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="children">
+                                <!-- Start Single Comment  -->
+                                <li class="comment">
+                                    <div class="comment-body">
+                                        <div class="single-comment">
+                                            <div class="comment-img">
+                                                <img src="./assets/images/author/author-image-1.png" alt="Author Images">
+                                            </div>
+                                            <div class="comment-inner">
+                                                <h6 class="commenter">
+                                                    <a class="hover-flip-item-wrapper" href="#">
+                                                        <span class="hover-flip-item">
+                                                            <span data-text="Rahabi Khan">Rahabi Khan</span>
+                                                        </span>
+                                                    </a>
+                                                </h6>
+                                                <div class="comment-meta">
+                                                    <div class="time-spent">Nov 23, 2018 at 12:23 pm
+                                                    </div>
+                                                    <div class="reply-edit">
+                                                        <div class="reply">
+                                                            <a class="comment-reply-link hover-flip-item-wrapper" href="#">
+                                                                <span class="hover-flip-item">
+                                                                    <span data-text="Reply">Reply</span>
+                                                                </span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="comment-text">
+                                                    <p class="b2">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse lobortis cursus lacinia. Vestibulum vitae leo id diam pellentesque ornare.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <!-- End Single Comment  -->
+                            </ul>
+                        </li>
+                        <!-- End Single Comment  -->
+
+                        <!-- Start Single Comment  -->
+                        <li class="comment">
+                            <div class="comment-body">
+                                <div class="single-comment">
+                                    <div class="comment-img">
+                                        <img src="./assets/images/author/author-b2.png" alt="Author Images">
+                                    </div>
+                                    <div class="comment-inner">
+                                        <h6 class="commenter">
+                                            <a class="hover-flip-item-wrapper" href="#">
+                                                <span class="hover-flip-item">
+                                                    <span data-text="Rahabi Khan">Rahabi Khan</span>
+                                                </span>
+                                            </a>
+                                        </h6>
+                                        <div class="comment-meta">
+                                            <div class="time-spent">Nov 23, 2018 at 12:23 pm</div>
+                                            <div class="reply-edit">
+                                                <div class="reply">
+                                                    <a class="comment-reply-link hover-flip-item-wrapper" href="#">
+                                                        <span class="hover-flip-item">
+                                                            <span data-text="Reply">Reply</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="comment-text">
+                                            <p class="b2">Duis hendrerit velit scelerisque felis tempus, id porta
+                                                libero venenatis. Nulla facilisi. Phasellus viverra
+                                                magna commodo dui lacinia tempus. Donec malesuada nunc
+                                                non dui posuere, fringilla vestibulum urna mollis.
+                                                Integer condimentum ac sapien quis maximus. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- End Single Comment  -->
+                    </ul>
+                </div>
+                <!-- End Comment Area  -->
+        </div>
+        <!-- End Comment Form Area  -->
+        
+    </div>
+    
+
+    <div class="container mt--100 mb--50" ng-controller="categoryCtrl">
+        <div class="row">
+            <hr>
+            <h3 class="head mt--20">You may like:</h3>
+            <a class="col-lg-4" href="#!bridges/{{x.id}}" ng-repeat="x in datalist | orderBy: random | limitTo: 6" onclick="axilBackToTop()">
+                <div class="cardarticle">
+                <p class="category-tag {{x.category}}">{{x.category}}</p>
+                <img class="banner-img" src='./assets/images/slider/{{x.image}}' alt=''>
+                <div class="cardarticle-body">
+                    <b>{{x.name}}</b>
+                    <div class="subinfo">
+                        <h6 style="margin: 0">{{x.country}}</h6>
+                        <div class="starsrating">
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </div>
+                      </div>
+                    <p>{{x.description}}</p>
+                </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+
+    <a id="backto-top"><i class="fa-solid fa-arrow-up"></i></a>
+    <script>
+        const $ = document.querySelector.bind(document);
+    const $$ = document.querySelectorAll.bind(document);
+
+    const tabs = $$(".tab-item");
+    const panes = $$(".tab-pane");
+
+    const tabActive = $('.tab-item.active')
+    const line = $('.tabs .line')
+
+    line.style.left = tabActive.offsetLeft + 'px'
+    line.style.width = tabActive.offsetWidth + 'px'
+
+    tabs.forEach((tab, index) => {
+        const pane = panes[index]
+
+        tab.onclick = function() {
+            $('.tab-item.active').classList.remove("active")
+            $('.tab-pane.active').classList.remove("active")
+
+            line.style.left = this.offsetLeft + 'px'
+            line.style.width = this.offsetWidth + 'px'
+
+            this.classList.add("active");
+            pane.classList.add("active");
+    };
+    })
+    </script>
+</div>
+
+<script src="assets/js/main.js"></script>
