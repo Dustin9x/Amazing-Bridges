@@ -1,0 +1,273 @@
+<div class="main-wrapper">
+    <div class="container" ng-controller="bridgedetailCtrl">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="bridgeheading mt--20">
+                    <h4 class="{{bridge.category}}" style="padding: 10px; text-transform: uppercase">{{bridge.category}}</h4>
+                    <h2 class="head mt--20">{{bridge.name}}</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8">
+                <img class="contentimage" src="./assets/images/slider/{{bridge.image}}" alt="{{bridge.info}}">
+            </div>
+            <div class="col-lg-4">
+                <div class="row">
+                    <div class="tabs">
+                        <div class="tab-item active">
+                        <i class="fa-solid fa-bolt"></i>
+                        Brief
+                        </div>
+                        <div class="tab-item">
+                        <i class="fa-solid fa-circle-info"></i>
+                        Information
+                        </div>
+                        <div class="tab-item">
+                        <i class="fa-solid fa-plane"></i>
+                        Guiding
+                        </div>
+                        <div class="line"></div>
+                    </div>
+            
+                    <!-- Tab content -->
+                    <div class="tab-content">
+                        <div class="tab-pane active">
+                            <p>{{bridge.description}}</p>
+                            <br>
+                            <p>See more:</p> <a href="{{bridge.link.website}}">{{bridge.link.website}}</a>
+                        </div>
+                        <div class="tab-pane">
+                            <p><span class="tab-pane-label">Country:</span>{{bridge.country}}</p>
+                            <p><span class="tab-pane-label">Height:</span>{{bridge.info.height}}</p>
+                            <p><span class="tab-pane-label">Length:</span>{{bridge.info.length}}</p>
+                            <p><span class="tab-pane-label">Year Built:</span>{{bridge.info.year}}</p>
+                            <p><span class="tab-pane-label">Number of visit per year:</span>{{bridge.info.visited}}</p>
+                        </div>
+                        <div class="tab-pane">
+                            <p class="tab-pane-label">Nearest Airport:</p>
+                            <li>{{bridge.transportation.flight1}}</li>
+                            <li>{{bridge.transportation.flight2}}</li>
+                            <br>
+                            <p class="tab-pane-label">Nearest Bus station:</p>
+                            <li>{{bridge.transportation.bus1}}</li>
+                            <li>{{bridge.transportation.bus2}}</li>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="post_social_react">
+                        <p class="my-3 head"><a href="#"><i class="fa-regular fa-heart"></i> 2.2k Like</a></p>
+                        <div class="starsrating"><p style="line-height: 14px; margin: 0 4px 0;"><span class="mr--10">Rating: </span></p>
+                            <li class="empty" ng-repeat="r in getRepeater() track by $index" ng-class="{'full': ($index + 1) <= bridge.info.rate, 'half': ($index + .5) == bridge.info.rate}"></li>
+                        </div>
+                    </div>
+                    <div class="post_social">
+                            <ul class="social-icon icon-rounded-transparent md-size">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                            <a href="./assets/download/{{bridge.link.download}}" class="info_download">
+                                Save PDF <i class="fa-solid fa-download"></i>
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="fulldescription mt--30 pl--20 pr--20">
+            <p>{{bridge.fulldescription.p2}}</p>
+            <h4>{{bridge.fulldescription.h2}}</h4>
+            <p>{{bridge.fulldescription.p4}}</p>
+            <p>{{bridge.fulldescription.p5}}</p>
+            <p>{{bridge.fulldescription.p6}}</p>
+            <p>{{bridge.fulldescription.p7}}</p>
+            <p>{{bridge.fulldescription.p8}}</p>
+            <h4>{{bridge.fulldescription.h3}}</h4>
+            <p>{{bridge.fulldescription.p9}}</p>
+            <p>{{bridge.fulldescription.p10}}</p>
+        </div>
+        
+        <h3 class="head mt--40">Map Location</h3>  
+        <div class="maplocation">
+            <ng-map zoom="14" center="[{{bridge.map}}]">
+                <marker position="[{{bridge.map}}]" />
+                <shape name="circle" radius="400" center="[{{bridge.map}}]" radius="4000" />
+                <control name="overviewMap" opened="true" />
+            </ng-map>
+        </div>
+
+        <div class="axil-comment-area">
+
+            <!-- Start Comment Respond  -->
+            <div class="comment-respond">
+                <h3 class="head mt--20">Post a comment</h3>
+                <form action="#">
+                    <p class="comment-notes"><span id="email-notes">Your email address will not be published.</span></p>
+                    <div class="row row--10">
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="form-group">
+                                <label for="name">Your Name</label>
+                                <input id="name" type="text">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="form-group">
+                                <label for="email">Your Email</label>
+                                <input id="email" type="email">
+                            </div>
+                        </div>
+                        <div class="product_ratting mb-10" >
+                            <h6 style="font-size:14px; margin-bottom: 4px">Your rating</h6>
+                            <section id="rate" class="rating">
+                                <input type="radio" id="star_5" name="rate" value="5" />
+                                <label for="star_5" title="Five">&#9733;</label>
+                                <input type="radio" id="star_4" name="rate" value="4" />
+                                <label for="star_4" title="Four">&#9733;</label>
+                                <input type="radio" id="star_3" name="rate" value="3" />
+                                <label for="star_3" title="Three">&#9733;</label>
+                                <input type="radio" id="star_2" name="rate" value="2" />
+                                <label for="star_2" title="Two">&#9733;</label>
+                                <input type="radio" id="star_1" name="rate" value="1" />
+                                <label for="star_1" title="One">&#9733;</label>
+                              </section>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="message">Leave a Reply</label>
+                                <textarea id="message" name="message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="form-submit cerchio float-right">
+                                <input name="submit" type="submit" id="submit" class="axil-button button-rounded" value="Post Comment">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <!-- End Comment Respond  -->
+
+            <!-- Start Comment Area  -->
+            <div class="axil-comment-area" ng-controller="commentCtrl">
+                <h4 class="title">{{commentslist.length}} comments</h4>
+                <ul class="comment-list">
+                    <li class="comment" ng-repeat="x in commentslist">
+                        <div class="comment-body">
+                            <div class="single-comment">
+                                <div class="comment-img">
+                                    <img src="./assets/images/author/{{x.useravatar}}" alt="Author Images">
+                                </div>
+                                <div class="comment-inner">
+                                    <h6 class="commenter">
+                                        <a class="hover-flip-item-wrapper" href="#">
+                                            <span class="hover-flip-item">
+                                                <span data-text="{{x.username}}">{{x.username}}</span>
+                                            </span>
+                                        </a>
+                                    </h6>
+                                    <div class="comment-meta">
+                                        <div class="time-spent">{{x.commenttime}}</div>
+                                        <div class="reply-edit">
+                                            <a class="comment-reply-link" href="#">Reply</a>
+                                        </div>
+                                    </div>
+                                    <p class="b2">{{x.usercomment}}</p>
+                                </div>
+                            </div>
+                        </div>
+                            <!-- Reply -->
+                            <ul class="children" ng-repeat="y in x.reply">
+                                <li class="comment">
+                                    <div class="single-comment">
+                                        <div class="comment-img">
+                                            <img src="./assets/images/author/{{y.useravatar}}" alt="Author Images">
+                                        </div>
+                                        <div class="comment-inner">
+                                            <h6 class="commenter">
+                                                <a class="hover-flip-item-wrapper" href="#">
+                                                    <span class="hover-flip-item">
+                                                        <span data-text="{{y.username}}">{{y.username}}</span>
+                                                    </span>
+                                                </a>
+                                            </h6>
+                                            <div class="comment-meta">
+                                                <div class="time-spent">{{y.commenttime}}</div>
+                                                <div class="reply-edit">
+                                                    <a class="comment-reply-link" href="#">Reply</a>
+                                                </div>
+                                            </div>
+                                            <p class="b2">{{y.usercomment}}</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!-- End Reply -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container mt--100 mb--50" ng-controller="categoryCtrl">
+        <div class="row">
+            <hr>
+            <h3 class="head mt--20">You may like:</h3>
+            <a class="col-lg-4" href="#!bridges/{{x.id}}" ng-repeat="x in datalist | orderBy: random | limitTo: 6">
+                <div class="cardarticle">
+                <p class="category-tag {{x.category}}">{{x.category}}</p>
+                <img class="banner-img" src='./assets/images/slider/{{x.image}}' alt=''>
+                <div class="cardarticle-body">
+                    <b>{{x.name}}</b>
+                    <div class="subinfo">
+                        <h6 style="margin: 0">{{x.country}}</h6>
+                        <div class="starsrating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        </div>
+                    <p>{{x.description}}</p>
+                </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <a id="backto-top"><i class="fa-solid fa-arrow-up"></i></a>
+    
+</div>
+<script>
+    const $ = document.querySelector.bind(document);
+    const $$ = document.querySelectorAll.bind(document);
+
+    const tabs = $$(".tab-item");
+    const panes = $$(".tab-pane");
+
+    const tabActive = $('.tab-item.active')
+    const line = $('.tabs .line')
+
+    line.style.left = tabActive.offsetLeft + 'px'
+    line.style.width = tabActive.offsetWidth + 'px'
+
+    tabs.forEach((tab, index) => {
+    const pane = panes[index]
+
+    tab.onclick = function() {
+        $('.tab-item.active').classList.remove("active")
+        $('.tab-pane.active').classList.remove("active")
+
+        line.style.left = this.offsetLeft + 'px'
+        line.style.width = this.offsetWidth + 'px'
+
+        this.classList.add("active");
+        pane.classList.add("active");
+    };
+})
+</script>
+<script src="assets/js/main.js"></script>
