@@ -11584,6 +11584,10 @@ body.active-dark-mode a {
   color: #ffffff;
 }
 
+body.active-dark-mode .comment-list .comment .reply-edit a.comment-reply-link {
+  color: #ffffff;
+}
+
 body.active-dark-mode .pagination>li>a {
   background-color: #1A1A1A;
 }
