@@ -1,0 +1,63 @@
+<div class="homeslider" ng-controller="homdefaultCtrl">
+    <div class="slidercontainer">  
+        <div class="showSlide slide" style="background-image: url(./assets/images/slider/1.jpg)">
+            <div class="slideImg" ></div> 
+            <div class="content contentcover">
+                <h1>Wow! Amazing Bridges</h1>
+                <p>Throughout the ages, man has been using architecture to bridge the gaps between physical obstacles, for the purpose of providing an easy passage. 
+                    Most of these bridges are also regarded as landmarks and are a vital part of the infrastructures of regions around the world. 
+                    Some have even become city icons because of their influence and engineering wonder.</p>
+                <p>Click <b>NEXT</b> to see the amazing bridges around the world!</p>
+            </div> 
+        </div>
+        <div class="showSlide slide" style="background-image: url(./assets/images/slider/{{x.image}})" ng-repeat="x in datalist">
+            <div class="slideImg" ></div> 
+            <div class="content">
+                <div class="contentbody">
+                    <h1>{{x.name}}</h1>
+                    <div class="subinfo">
+                        <h4 style="margin: 0">{{x.country}}</h4>
+                        <div class="starsrating">
+                            <li class="empty" ng-repeat="r in getRepeater() track by $index" ng-class="{'full': ($index + 1) <= x.info.rate, 'half': ($index + .5) == x.info.rate}"></li>
+                        </div>
+                      </div>
+                    <p>{{x.description}}</p>
+                    
+                </div>
+                <a class="axil-button button-rounded hover-flip-item-wrapper" href="#!bridges/{{x.id}}">
+                    <span class="hover-flip-item">
+                        <span data-text="Explore Now">Explore Now</span>
+                    </span>
+                </a> 
+            </div> 
+        </div>
+        <button class="left" onclick="nextSlide(-1)"></button>  
+        <button class="right" onclick="nextSlide(1)"></button>
+    </div> 
+</div>  
+
+
+
+<script>
+    var slide_index = 1;  
+        displaySlides(slide_index);  
+  
+        function nextSlide(n) {  
+            displaySlides(slide_index += n);  
+        }  
+  
+        function currentSlide(n) {  
+            displaySlides(slide_index = n);  
+        }  
+  
+        function displaySlides(n) {  
+            var i;  
+            var slides = document.getElementsByClassName("showSlide");  
+            if (n > slides.length) { slide_index = 1 }  
+            if (n < 1) { slide_index = slides.length }  
+            for (i = 0; i < slides.length; i++) {  
+                slides[i].style.display = "none";  
+            }  
+            slides[slide_index - 1].style.display = "block";  
+        }
+</script>

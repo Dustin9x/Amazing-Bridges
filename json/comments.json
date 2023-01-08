@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "useravatar": "author-b1.png",
+        "username": "Cameron Williamson",
+        "useremail": "",
+        "userrating": 3,
+        "usercomment": "Every bridges mechanism are unique and unbelievable...",
+        "commenttime": "Dec 23, 2022 at 12:23 pm",
+        "reply":[
+            {
+                "id": 3,
+                "useravatar": "author-b2.png",
+                "username": "BobbyTucker",
+                "useremail": "",
+                "userrating": 3,
+                "usercomment": "Building some of those bridges is a wonderful way to protect nature and wild animals",
+                "commenttime": "Dec 23, 2022 at 12:23 pm"
+            },
+            {
+                "id": 4,
+                "useravatar": "author-image-1.png",
+                "username": "A-Future-San-Franciscan",
+                "useremail": "",
+                "userrating": 3,
+                "usercomment": "My favorite is the Golden Gate Bridge٫ i actually created an original character themed around it :3",
+                "commenttime": "Dec 23, 2022 at 12:23 pm"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "useravatar": "author-b1.png",
+        "username": "Rachel Caskey",
+        "useremail": "",
+        "userrating": 3,
+        "usercomment": "All so beautiful",
+        "commenttime": "Dec 23, 2022 at 12:23 pm",
+        "reply":[
+            {
+                "id": 5,
+                "useravatar": "author-image-2.png",
+                "username": "Rebecca Ross",
+                "useremail": "",
+                "userrating": 3,
+                "usercomment": "Golden gate bridge is the most famous and the second famous bridge is sydney harbour bridge third is tower bridge",
+                "commenttime": "Dec 23, 2022 at 12:23 pm"
+            }
+        ]
+    }
+]

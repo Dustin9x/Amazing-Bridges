@@ -1,0 +1,99 @@
+<div class="axil-banner banner-style-1 bg_image bg_image--4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="inner">
+                    <h1 class="title">Contact Us</h1>
+                    <p class="description">Wherever & whenever you need us. We are here for you – contact us for all your support needs.
+                        be it technical, general queries or information support.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt--70">
+    <div class="row">
+        <div class="col-lg-12 col-xl-12">
+            <div class="axil-about-us">
+                <div class="inner">
+                    <h2>Say Hello! </h2>
+                    <p>Need to get in touch with the team? We’re all ears.</p>
+                    <p>Email: <a href="#">aptechteam3@gmail.com</a></p>
+                </div>
+                <!-- Start Contact Form  -->
+                <div class="axil-section-gapTop axil-contact-form-area">
+                    <h4 class="title mb--10">Send Us a Message</h4>
+                    <p class="b3 mb--30">Your email address will not be published. All the fields are required.</p>
+                    <form id="contact-form" method="POST" action="https://new.axilthemes.com/demo/template/blogar/mail.php" class="axil-contact-form contact-form--1 row">
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="form-group">
+                                <label for="contact-name">Your Name</label>
+                                <input name="contact-name" id="contact-name" type="text">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="form-group">
+                                <label for="contact-phone">Phone</label>
+                                <input type="text" name="contact-phone" id="contact-phone">
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="form-group">
+                                <label>Your Email</label>
+                                <input for="contact-email" name="contact-email" id="contact-email" type="email">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="contact-message">Your Message</label>
+                                <textarea name="contact-message" id="contact-message"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <a class="form-submit axil-button button-rounded hover-flip-item-wrapper" id="toast-trigger" href="#">
+                                <span class="hover-flip-item">
+                                    <span data-text="Submit">Submit</span>
+                                </span>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <script>
+    const toasttrigger = document.querySelector("#toast-trigger"),
+    toast = document.querySelector(".toast");
+    (closeIcon = document.querySelector(".close")),
+    (progress = document.querySelector(".progress"));
+
+    let timer1, timer2;
+
+    toasttrigger.addEventListener("click", () => {
+    toast.classList.add("active");
+    progress.classList.add("active");
+    document.querySelector('.toast:not(.show)').style.display = 'block';
+
+    timer1 = setTimeout(() => {
+        toast.classList.remove("active");
+    }, 5000); //1s = 1000 milliseconds
+
+    timer2 = setTimeout(() => {
+        progress.classList.remove("active");
+    }, 5300);
+    });
+
+    closeIcon.addEventListener("click", () => {
+    toast.classList.remove("active");
+
+    setTimeout(() => {
+        progress.classList.remove("active");
+    }, 300);
+
+    clearTimeout(timer1);
+    clearTimeout(timer2);
+    });
+  </script>
+

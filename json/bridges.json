@@ -1,0 +1,1231 @@
+[
+    {
+        "id": 1,
+        "name": "Golden Gate Bridge, San Francisco",
+        "country": "USA",
+        "category": "highest",
+        "image": "6.jpg",
+        "description": "The iconic Golden Bridge, one of the most internationally recognized symbols of the USA, spans the channel between the Pacific Ocean and San Francisco Bay, linking the city of San Francisco with Marin County",
+        "fulldescription":{
+                "h1":"Golden Gate Bridge – An Eternal Symbol of San Francisco",
+                "p2":"The Golden Gate Bridge is considered the gateway on the road from the Pacific Ocean into San Francisco Bay, connecting the cities of San Francisco at the northern tip of the San Francisco peninsula with Marin County near the town of Sausalito to the south. The bridge is 2.7 km long, the distance between the spans is 1,280 meters, 67 meters above the water surface, and the two steps have a high speed of 230 meters from the water surface.",
+                "h2":"Interesting Facts About the Golden Gate Bridge",
+                "p4":"1. The diameter of the main slings is 0.91 meters. At the time of its creation in 1937, the Golden Gate Bridge was considered the longest suspension bridge in the world, however, this rating was changed on November 21, 1964, by the Verrazano Narrows Bridge in New York.",
+                "p5":"2. The name Chrysopylae, also known as the Golden Gate, was given by geoengineer John C. Fremont, thanks to this bridge reminding him of the Chrysoceras harbor - Golden Buffalo Horn - in the city of Istanbul, Turkey.",
+                "p6":"3. Golden Gate Bridge - Golden Gate by architect Joseph Strauss - A passionate engineer, previously built 400 bridges across the United States. The process of designing and building is very arduous and dangerous, but it is 'a tragic song for passion and courage'.",
+                "p7":"4. 19 people who escaped death during the construction of the bridge have been included in the list of members of the project list of an organization called Half Way To Hell, an organization for people who have been 'out of their souls'.",
+                "p8":"5. President F. Roosevelt officially pressed an electric button to celebrate the information car, marking the birth of one of the greatest bridges in human history in 1937.",
+                "h3":"Experience Sightseeing, Taking Photos at the Golden Gate Bridge",
+                "p9":"San Francisco people encourage customers to see the Golden Gate Bridge early in the morning, through the Presidio park located along the coast. It is an interesting journey along the craggy cliffs, and along the way, visitors will be able to see the bridge from many different angles.",
+                "p10":"There is nothing more wonderful than if visitors have the opportunity to witness this legendary bridge covered in fog. It looks mysterious and has a bit of a dreamlike feel. At this time, the Golden Gate Bridge will be revealed piece by piece when the sun rises and then finally shines in the sunshine, against the blue sea. From the Golden Gate Bridge, visitors can easily explore other tourist attractions in San Francisco such as Golden Gate Park, Chinatown, and the Transamerica Pyramid building - a manifesto of architectural art. and modern architecture."
+        },
+        "info": 
+            {
+                "height": "13.000m",
+                "year": 1937,
+                "rate": 3,
+                "length": "2.737m",
+                "visited": "40.000.000"
+            },
+        "map" : "37.82014045056805, -122.47822291677824",
+        "transportation": 
+            {
+                "flight1": "San Diego International Airport",
+                "flight2": "San Francisco International Airport",
+                "bus1": "Golden Gate Bridge Toll Plaza Bus Station",
+                "bus2": "US-101 Off-Ramp/Sausalito Lateral Rd Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://www.goldengate.org/",
+                "download": "1.pdf"
+            }
+    },
+
+    {
+        "id": 2,
+        "name": "Khaju Bridge, Ishafan",
+        "country": "IRAN",
+        "category": "most-visited",
+        "image": "7.jpg",
+        "description": "This Iranian bridge is one of the finest examples of Persian architecture at the height of Safavid cultural influence in Iran. Located in the Isfahan province,  the Khaju bridge performs many functions. The first is connecting the two banks of the Zayandeh river. At the same time, it works as a dam that separates two portions of the river with different water levels. Finally, it is an excellent place for leisure, with its pavilions and steps over the water, in a region where the heat is often intense.",
+        "fulldescription":{
+            "h1":"Khaju Bridge, Ishafan",
+            "p2":"Anyone passing through the city of Isfahan also stops to look at this beautiful bridge.",
+            "h2":"Interesting Facts About the Khaju Bridge ,Ishafan",
+            "p4":"Today, although it is not the main bridge for travel, for many residents and visitors, Khaju is the most expressive answer to Isfahan city.",
+            "p5":"The bridge has 23 spans with a total length of 105 meters and a width of 14 meters, built of brick and stone. It connects the Khaju and Zoroastrian neighborhoods across the Zayandeh river.",
+            "p6":"The bridge also functions as a dam channel, regulating the flow of the river. That's why the foot of the bridge is designed to rise above the water, making us think this is a 2-story bridge.",
+            "p7":"In fact, the lower floor of the bridge is the foot of the bridge designed to take advantage of the space between the foot of the bridge to make sluice gates with a width of 7.5 m with 21 large entrances and 26 smaller entrances..",
+            "p8":"The stone slabs used to build the foot of the bridge are up to 2 meters long. When the sluice gates are closed, the water level will bring higher level to facilitate the harvesting of the fields along the Zayandeh river. The upper level of the new bridge is the passageway. The middle aisle used to be a carriageway, but today when the carriages are no longer usable, this path is left for pedestrians. In addition, pedestrians can use the walkway between the arches on either side of the wing",
+            "h3":"Experience Sightseeing, Taking Photos at the Khaju Bridge ",
+            "p9":"The upper level of the new bridge is the passageway. The middle aisle used to be a carriageway, but today when the carriages are no longer usable, this path is left for pedestrians. In addition, pedestrians can use the walkway between the arches on either side of the wing.",
+            "p10":"At night, the bridge appears with an extremely elegant and harmonious appearance. Khaju is like a row of candles in the Dark Night illuminating the fragrant tea cups of people who are immersed in the space of the Zayandeh River. What a must-see for visitors to Isfahan city."
+    },
+        "info": 
+            {
+                "height": "11m",
+                "year": 1650,
+                "rate": 4,
+                "length": "133m",
+                "visited": "20.000.000"
+            },
+        "map" : "32.63693207002366, 51.68330716771304",
+        "transportation": 
+            {"flight1": "Isfahan International Airport",
+            "flight2": "Mehrabad International Airport",
+            "bus1": "Khaju Bridges Bus Stop",
+            "bus2": "Bridge Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Khaju_Bridge",
+                "download": "2.pdf"
+            }
+    },
+    
+    {
+        "id": 3,
+        "name": "Tower Bridge London",
+        "country": "UK",
+        "category": "most-visited",
+        "image": "8.jpg",
+        "description":  "Tower Bridge was built 120 years ago over the Thames to ease road traffic while maintaining river access to the London docks. Built with giant moveable roadways that lift up for passing ships, it is to this day considered an engineering marvel and one of London’s favorite icons. It is arguably one of the most instantly recognisable structures in the entire world. The bridge deck is freely accessible to both vehicles and pedestrians, whereas the bridge’s twin towers, high-level walkways and Victorian engine rooms form part of the Tower Bridge Exhibition, for which an admission charge is made.",
+        "fulldescription":{
+            "h1":"Tower Bridge London",
+            "p2":"Tower Bridge of London, also known as the very Vietnamese name of London Tower Bridge, is an outstanding architectural work of British architecture. This is a perfect combination of suspension bridges. tower bridge and tower, all of which form the basis for a perfect construction that anyone who comes to London must see.",
+            "h2":"History of Tower Bridge of London",
+            "p4":"The tower bridge was built across the romantic Thames River and is located right next to the BigBen clock tower, creating a world-famous tourist area attracting millions of British tourists from all over the world. The Tower Bridge of London is the crystallization of architectural art by the leading architects of England, architect Sir Horace Jones and engineer Sir John Wolfe Barry. They started building the basic model for this building in 1886 and started work a year later. The sad thing is that engineer John passed away shortly after the construction was started.",
+            "p5":"TGeorge D. Stevenson was his replacement during construction and Sir John Wolfe Barry changed some small details to create Tower Bride London as it is today. The bridge was officially inaugurated and put into operation in 1894. Prince Edward (future King Edward II) cut the ribbon for this bridge.",
+            "p6":"Construction :The bridge has a total length of up to 244m, and the two towers are 65m high. The main bridge span, 61m long, is placed between the two towers, and is separated by two lifts, which can be raised to form an angle of 83 degrees enough for ships to pass. Each lift weighs 1,000 tons, is counterbalanced to minimize force, and can be lifted in 5 minutes.",
+            "p7":"The two sides of the bridge are two suspension bridges, each side is 82m long, with hanging ropes hooked to the stone pillars on both sides and threaded through the hanging ropes connected to the walkway above. Pedestrian roads on both sides are 44 meters above the river at the time of high water. Currently, this place is helping 40,000 vehicles move between the two banks of the Thames.",
+            "p8":"With the typical classical architecture of the search background, British architecture combined with the inherent beauty of the poetic Thames river creates romantic and delusional people like you can only see in love movies. cold. That's why when you come to Tower Bridge London, don't forget to bring your camera to capture the beautiful moments and flutter the hearts of people here.",
+            "h3":"The beauty of the Tower Bridge of London",
+            "p9":"If you're lucky, you can catch the sight of ships passing by the bridge. then the two spans in the middle will be pulled up to form an extremely interesting scene. Don't forget your camera to capture that wonderful moment.",
+            "p10":"The Tower Bridge of London is especially beautiful at sunrise and sunset when photography lovers from all over the world gather at nearby vantage points. Under the bright golden sunlight, the bridge's appearance appears as soft as a blue silk ribbon floating on each shining span, adding to the magnificence of London.luminating the fragrant tea cups of people who are immersed in the space of the Zayandeh River. What a must-see for visitors to Isfahan city."
+    },
+        "info": 
+            {
+                "height": "65m",
+                "year": 1894,
+                "rate": 3,
+                "length": "840m",
+                "visited": "500.000"
+            },
+        "map" : "51.50559909843881, -0.0753859510674104",
+        "transportation": 
+            {
+                "flight1": "Heathrow Airport, Luton International Airport",
+                "flight2": "Luton International Airport",
+                "bus1": "Tower Bridge (Stop L)",
+                "bus2": "City Hall Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://www.towerbridge.org.uk/",
+                "download": "3.pdf"
+            }
+    },
+    {
+        "id": 4,
+        "name": "Sydney Harbour Bridge",
+        "country": "AUSTRALIA",
+        "category": "oldest",
+        "image": "9.jpg",
+        "description": "The Sydney Harbour Bridge is considered the world's greatest arch bridge and one of Australia's best-known and photographed landmarks.The bridge – nicknamed “The Coathanger” because of its arch-based design – carries rail, vehicular, bicycle, and pedestrian traffic between Sydney’s central business district and the North Shore.",
+        "fulldescription":{
+            "h1":"Sydney Harbour Bridge",
+            "p2":"Sydney Harbor Bridge is the largest wharf in the world, also a famous tourist symbol of the kangaroos. Sydney Harbor Bridge is the main wharf across Sydney including the train line, the car road, and the middle passage for pedestrians. Walk through the downtown business district and the North Shore.",
+            "h2":"History of Sydney Harbour Bridge",
+            "p4":"The wharf started construction on July 28, 1923, and completed construction, entering operation on March 19, 1932.",
+            "p5":"The first bridge of the wharf is Dawes Point in The Rocks area. The stretch of road over the bridge is called Bradfield Highway, with a total length of 1.5 times considered the longest highway in Australia. the construction cost of up to 4.2 million by the British company Dorman Long and Co of Middlesbrough undertake the construction task.",
+            "p6":"Up to 800 families living on the road planned for the construction project were relocated and their doors were destroyed without any compensation when the bridge started construction. 16 workers were lost during the claim construction process.",
+            "p7":"The bridge is designed in an arch style, with a length of 1149 responses, a width of 49 responses, and a height from the arch to the foot of the bridge is 139 responses. The main span of up to 503 is met, and high-speed collision above sea level visibility 49 has been met (calculated by the most marina in the middle of the bridge).",
+            "p8":"Six million hand-sprinklers and 53,000 tons of steel were used in the construction, and each time 30,000 liters of paint were repainted. Divided into 8 traffic lanes and two railway lines, one in each direction, but at the time of construction, the two eastern lanes were tramways.",
+            "h3":"Experience Sightseeing, Taking Photos at the Sydney Harbour Bridge",
+            "p9":"Visiting here visitors can trace from one end of the bridge to the other or can climb to the top of the bridge to see the scenery waiting for the goal from the Sydney Harbor Bridge. The pedestrian crossing is closed for now, but visitors can cycle through a special lane and walk across the bridge for free. Cars cost from 3.30$ for a trip in the past from North to South.",
+            "p10":"Sydney's New Year's Eve is always held here with sparkling fireworks ahead. Under the sunset, the red sun rose behind the arch of the bridge, becoming a familiar image in photography and poetry of many artists in this land of kangaroos."
+    },
+        "info": 
+            {
+                "height": "134m",
+                "year": 1894,
+                "rate": 5,
+                "length": "1.149m",
+                "visited": "9.300.000"
+            },
+        "map" : "-33.852145892292604, 151.21079782568867",
+        "transportation": 
+            {
+                "flight1": "Melbourne International Airport",
+                "flight2": "Sydney International Airport",
+                "bus1": "Wynyard Station",
+                "bus2": "Clarancest At King St Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://www.sydney.com/destinations/sydney/sydney-city/sydney-harbour/sydney-harbour-bridge",
+                "download": "4.pdf"
+            }
+    },
+    {
+        "id": 5,
+        "name": "Ponte Di Rialto",
+        "country": "ITALIA",
+        "category": "longest",
+        "image": "10.jpg",
+        "description": "Ponte di Rialto (Rialto Bridge) was built in just three years, between 1588 and 1591, as a permanent replacement for the boat bridge and three wooden bridges that had spanned the Grand Canal at various times since the 12th Century. The Rialto Bridge’s 7.5 meter (24 ft) arch was designed to allow passage of galleys, and the massive structure was built on some 12,000 wooden pilings that still support the bridge more than 400 years later. The architect, Antonio da Ponte competed against such eminent designers as Michelangelo and Palladio for the contract.",
+        "fulldescription":{
+            "h1":"Ponte Di Rialto",
+            "p2":"The Rialto Bridge is one of the oldest and most famous constructions of Venice, Italy. The bridge spans the Grand Canal, is made entirely of stone.",
+            "h2":"History of Ponte Di Rialto",
+            "p4":"Covered Rialto Bridge, designed by architect Antonio Da Ponte. The bridge is more than 10 m high enough for boats to move below. The Rialto Bridge has three entrances, including two along the outer lane and a large central walkway in the middle. The walkway in the middle runs through the shops facing the inside, where Murano glassware, jewelry and other local crafts are sold. ",
+            "p5":" The walkway in the middle runs through the shops facing the inside, where Murano glassware, jewelry and other local crafts are sold",
+            "p6":"Rialto Bridge was built in 1588, and completed in 1591, has a very unique V-design, with a length of about 48 m.",
+            "p7":"Over the centuries, the Ponte di Rialto has received both positive acclaim and criticism for its public figure. Please consider this description from a Venice article:'Rialto's bridge has had quite a bit of controversy. In the judgment of Venice voiceover, Moryson said, The bridge 'deserves to be considered the eighth color of the world. Coryate, while decrying 'the wicked and the wicked', made the remark - 'The fairest bridge on many levels to the dome I have ever seen, or heard of.' But later it became known that both Moryson and Coryate were there within a few years of the bridge's completion. Others condemned the bridge as heavy and ungainly. The controversy was academic. . Like the Eiffel Tower, the Rialto has earned the status of a world icon that puts it well beyond the reach of estheticians.'",
+            "p8":"The bridge received both praise and scorn for its shape from critics, however, it is now perhaps the oldest bridge known to many people both for its construction and for its purpose. meaning of it. Because it very often appears in movies including TV series and movies.",
+            "h3":"Experience Sightseeing, Taking Photos at the Ponte Di Rialto",
+            "p9":"The Venetians believe that each bridge is also a rendezvous point connecting loving hearts. Is that why the Rialto Bridge is known as the bridge of love. How many couples once in their life want to set foot on the Rialto bridge to make wishes and vows? They believe that the oath here will come true. Rialto Bridge is also an endless source of inspiration to blow the fire of love in the hearts of artists and then appear in many famous paintings and poems. Since then, the ancient and romantic beauty of the Rialto Bridge, in particular, the attraction of Venice has been increasingly spreading.",
+            "p10":"How many couples once in their life want to set foot on Rialto Bridge to make vows and vows? They believe that the oath here will come true. If you have the opportunity to visit Venice, you should visit the Rialto Bridge to witness and enjoy the space filled with love here. Babartravel is very willing to be a close and reliable companion on your trip."
+    },
+        "info": 
+            {
+                "height": "7.5m",
+                "year": 1951,
+                "rate": 3,
+                "length": "1.149m",
+                "visited": "30.000.000"
+            },
+        "map" : "45.43801260704753, 12.335909995270859",
+        "transportation": 
+            {
+                "flight1": "Venice Marco polo airport (VCE)",
+                "flight2": "Venice Treviso Airport (TSF),",
+                "bus1": "Piazzale Roma Parking Bus Station ",
+                "bus2": "Venezia Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Rialto_Bridge/",
+                "download": "5.pdf"
+            }
+    },
+    {
+        "id": 6,
+        "name": "Millau Viaduct",
+        "country": "FRANCE",
+        "category": "longest",
+        "image": "11.jpg",
+        "description": "The Millau Viaduct is part of the A75-A71 Freeway from Paris to Montpellier, and is located in the Aveyron départment in southern France. It is the highest bridge in the world, standing 270 meters (890 ft) over the Tarn River and is more than 340 meters (1,125 ft) in height at the top of its highest mast. It is slightly taller than the Eiffel Tower in Paris and only 38 meters (125 ft) shorter than the Empire State Building. It is a cable-stayed road bridge designed by engineer Michel Virlogeux and British architect Norman Foster.",
+        "fulldescription":{
+            "h1":"Millau Viaduct",
+            "p2":"The Millau Viaduct was designed by British architect Norman Foster and French bridge engineer Michel Virlogeux. This bridge was once considered the tallest in the world. The bridge is the pride of the French and is known as the perfect new wonder of France, attracting quite a few tourists to visit.",
+            "h2":"History of Millau Viaduct",
+            "p4":"The Millau Bridge is part of the A75-A71 road traffic axis from Paris to Béziers, connecting the two plateaus of the Massif Central mountain range. across the river Tarn, connecting two plateaus at great distances. With a total length of 2,460m, the solution offered is to design a bridge with 7 pillars, the length of each bridge span is up to 342m, and the pillars have a height of 75 to 235m.",
+            "p5":" According to the design, 7 Millau piers are constructed of reinforced concrete in the shape of a pyramid, inverted V, and the conductor resembles half a harp. The cables are arranged as close together as parallel by anchoring the cable ends to different points of the tower so that there is as much distance between the cables attached to the tower as the close distance between the component cables below attached to the tower. positions on vertical, vertical by the path.",
+            "p6":"Due to the high level of Millau, the road is not designed to be flat because this can cause a feeling of floating for the driver. To solve the problem, the bridge is designed with a slightly curved structure, inclined by about 3% to improve visibility and create a comfortable psychological feeling. Each side requested to design a 3m wide corridor to increase safety and help drivers not see the valley below. According to calculations by Norman Foster, when the bridge is exposed to strong winds of 151 km/h, a secondary shield is used to reduce the impact of the wind by up to 50%. So the wind speed on the bridge is similar to the wind speed on the ground.",
+            "p7":"The construction process used hundreds of hydraulic cylinders and high-performance pumps to guide and fix the surface and a synchronized upgrade system of auxiliary columns. Millau Viaduct is the result of 17 years of ideas from people who imagine, propose, and designed, after construction is complete. Le Viaduc de Millau broke 3 world records: The world's tallest bridge tower with towers P2 and P3 respectively 244.96m and 221.05m high; The tallest column in the world with the top of tower P2 343m high; and the highest bridge deck in the world at 270m above the river Tarn (at its highest point). It's almost double the height of the previous highest claim in Europe. To build Millau Bridge, people had to use about 127,000 m³ of concrete, 19,000 tons of concrete, and 5,000 tons of steel. In total, the bridge weighs about 290,000 tons.",
+            "p8":"Norman Foster is known to mankind as a genius in world architecture. Not only is he always coming up with unique and suitable architectural ideas for each specific location, but he is also at the forefront of applying new technologies to his products. Critics have commented that Norman Foster's design concept is more than a utopia, it is like a magical dream about space. He once said: 'Architecture is associated with people and quality of life. Architecture cannot exist on its own. We must create buildings that are technology and culture...'. Therefore, his creative works are always one of the very unique and always pioneering products in the field of construction, Le Viaduc de Millau is living proof of that philosophy.",
+            "h3":"The goal of this construction",
+            "p9":"Whenever we come across a work like this, there is a goal or an end. In this case, it was that they wanted to avoid the rather complicated part of Tarn and Millau",
+            "p10":"Because here often see a lot of carts passing by, especially at the time of tourism and public holidays. Thus, thought was made to merge Paris with the Mediterranean region of Béziers. So nearly 400 million was put on the table so that the Millau Water Bridge could be built."
+    },
+        "info": 
+            {
+                "height": "340m",
+                "year": 2001,
+                "rate": 4,
+                "length": "2.460m",
+                "visited": "5.000.000"
+            },
+        "map" : "44.07750263683339, 3.0228638864944672",
+        "transportation": 
+            {
+                "flight1": "Charles de Gaulle airport (CDG)",
+                "flight2": "Nice-Cote (NCE) International Airport",
+                "bus1": "Aguessac Bus Station",
+                "bus2": "Hôpital Fenaille Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Millau_Viaduct",
+                "download": "6.pdf"
+            }
+    },
+    {
+        "id": 7,
+        "name": "Ponte Vecchio",
+        "country": "ITALIA",
+        "category": "impressive",
+        "image": "12.jpg",
+        "description": "No visit to Florence is complete without at least some time spent dawdling on its medieval arch bridge, Ponte Vecchio, that spans the Arno river at its narrowest point. The bridge was first built in Roman times, but rebuilt in the 14th century after it was destroyed by a flood. During World War II it was the only bridge across the Arno that the fleeing Germans did not destroy.",
+        "fulldescription":{
+            "h1":"Ponte Vecchio",
+            "p2":"Ponte Vecchio is the most special architectural bridge in the world. If viewed from afar, visitors will be confused that this is a miniature city by the river without thinking it is a bridge. By the Ponte Vecchio bridge, there is no bridge or means of transportation. Stepping on the bridge, you will feel like you are entering the miniature thermal center, full of trade stalls.",
+            "h2":"History of Ponte Vecchio",
+            "p4":"The Ponte Vecchio Bridge was built of stone in Roman times. However, through two droughts in 1117 and 1333, the bridge was pretty much destroyed. After a while, the Ponte Vecchio was rebuilt, reshaped as before, and exists to this day. The bridge was created to serve many purposes such as trade, trade, pedestrian travel",
+            "p5":"From a distance, you will only see two rows of old houses lying on both sides of the bridge and floating horizontally along the Arno river. Because, on the Ponte Vecchio bridge, there are no poles and it is very quiet. The bridge is like a rectangular box with closed corners. You will feel like it is a small golden cave in the middle of the Arno river!",
+            "p6":"From a distance, you can hardly recognize that Ponte Vecchio is a real bridge because it has no bridge wall, no column cars running through, only 2 blocks of ancient houses crossing the Arno River.",
+            "p7":"Initially, the bridge was designed with wood. After a historic flood in 1333, the new bridge was rebuilt with stone, the stone arch of the oldest calendar bridge in Europe.",
+            "p8":"During World War II when the Nazis withdrew from Florence in 1944, Ponte Vecchio was the only bridge over the Arno River that was preserved in its original state. The new found ability to 'survive'the destruction of this particular bridge.",
+            "h3":"Experience Sightseeing, Taking Photos at the Ponte Di Rialto",
+            "p9":"On the bridge, there are no carriages, instead, there is a system of lovely shops, catching up with different large and small merchants. Walking on the Ponte Vecchio bridge, visitors will feel like they are lost in a beautiful and interesting shopping street. Especially, female tourists love this. The two sides of the bridge are jewelry stores - the favorite place of women. You can buy rings, bracelets, necklaces and many other precious pieces of jewelry.",
+            "p10":"If you want to admire the romantic romantic scenery on both sides of the Arno River, lovely houses, ancient and magnificent towers, visitors should stand in the long covered corridor right on the bridge."
+    },
+        "info": 
+            {
+                "height": "42m",
+                "year": 2001,
+                "rate": 3,
+                "length": "95m",
+                "visited": "455,477"
+            },
+        "map" : "43.76802734430949, 11.253154002452954",
+        "transportation": 
+            {
+                "flight1": "Florence Airport (Amerigo Vespucci)",
+                "flight2": " Pisa Airport (named Galileo Galilei)",
+                "bus1": "Borgo San Iacopo Bus Station",
+                "bus2": "Bardi Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Ponte_Vecchio",
+                "download": "7.pdf"
+            }
+    },
+    {
+        "id": 8,
+    "name": "Charles Bridge",
+    "country": "CZECH REPUCLIC",
+    "category": "oldest",
+    "image": "13.jpg",
+    "description": "Charles Bridge is a stone gothic bridge that crosses the Vltava river and connects Prague’s Old Town and Lesser Town (Malá Strana). The bridge is 621 metres (2,037 ft) long and nearly 10 metres (33 ft) wide, resting on 16 arches shielded by ice guards.",
+    "fulldescription":{
+        "h1":"Charles Bridge",
+        "p2":"Known as the bridge of the saints, the Charles Bridge is one of the oldest stone bridges in Europe. The Charles Bridge connects the two banks of the Vltava River between the Czech capital, Prague. Not only famous for its centuries-long history, but the bridge is also a representative of the architecture in an extremely romantic and romantic style and is a tourist attraction when arriving in Prague. Today, it is also known by the romantic name 'Bridge Love'.",
+        "h2":"History of Charles Bridge",
+        "p4":"In the 10th century, people on both sides of the river used to cross the wooden bridge. There is a priest in the Czech Republic who is very interested and impressed with the stone bridge in Italy, he brought this idea and talked to someone who was also very interested in building a stone bridge in Prague, that was Judith Durynská, wife of King Vladislav II.",
+        "p5":"Therefore, the king built the bridge from 1158 to 1172 and named her: Judith Bridge. This bridge is 500 m long, 7 m wide, built of red sandstone, and has 27 arches above the river. At the time the bridge was completed, it was one of the few existing in Europe. The bridge has been flooded with terrible history due to melting ice in 1342. Recently, the remnants of Judith bridge have been seen when the river water dried to its lowest level. Divers are working to find the remains of the old tree.",
+        "p6":"15 years after the Judith bridge was happy, a new bridge was built and replaced, many meters higher than the old tree with the aim of avoiding being destroyed by the Vltava current again. Completed in 1402, it is the only pedestrian bridge that crosses the Vltava River. It became an important trade hub connecting Eastern and Western Europe. This first bridge was called Stone Bridge or Prague Bridge, in 1870 it was renamed Charles Bridge.",
+        "p7":"Some information you may not know: Charles Bridge in Czech, called Karluv, is 4.5m wider than the old bridge. The bridge was rebuilt in 1357 thanks to the talented king at that time, King Charles IV. King asked astronomers and theologians to calculate the exact details to choose a good time to build. King Charles IV also placed the first stone to be built on July 9, 1357, at 5:31. the combined numbers are 1 3 5 7 9 7 5 3 1). The famous architect, Petr Parléř was assigned to build the project.The bridge is 516m long, 10m wide with 16 pillars. There are two towers at both ends like the watchtower of the bridge named Old Town and Lesser Town. All architecture of the bridge is in Gothic style. In 1657, when the Renaissance spread in Europe, 30 statues and groups of statues began to be built on the bridge piers according to Baroque architecture. In total, there are 75 statues, and possibly the most beautiful and ancient is the statue of John Nepomuk. Legend says that if you touch the bronze plaque at the base of the statue, you will surely return to Prague one day. I also tried to rub my hands on that copper board because I still hope to come back here one day.",
+        "p8":"Since the beginning of the 20th century, the original statues have been replaced by replicas, as many of the originals were flooded and destroyed by natural disasters over the centuries. The rest are kept on the ground floor of the national museum. For more than 5 centuries, Charles Bridge has been the inspiration of many legends and has witnessed important historical events in the history of the Czech Republic. The longest river Vltava in this country flows to divide the capital Prague with 18 bridges crossing, but the bridge that is always mentioned when it comes to the Vltava river or this Prague city is the Charles Bridge.",
+        "h3":"Experience Sightseeing, Taking Photos at the Charles Bridge",
+        "p9":"Love Bridge Prague is the top scenic spot of the capital Prague that is loved by many tourists and is also one of the most beautiful bridges in the world for you to explore. Karel Bridge is the most interesting place to attract tourists thanks to the performing arts activities of many free artists in the world. If you want to have a sketch of your own, this is the ideal place. The sunset time on the Prague love bridge is very romantic, it makes you feel extremely relaxed to watch the dimly flowing Vltava water or the boats going uphill on the waves. It's great to have check-in photos here, isn't it?",
+        "p10":"The best time for you to visit Prague's love bridge is in the morning when the weather is quite cool, and not too crowded, so you can enjoy the view around the city. it's a gentle air-breathing time. You can also come here in the evening when walking on the street at night to see the peace of the Czech people."
+},
+        "info": 
+            {
+                "height": "9.5m",
+                "year": 1402,
+                "rate": 2,
+                "length": "516m",
+                "visited": "378,277"
+            },
+        "map" : "50.08662851819425, 14.411458054882445",
+        "transportation": 
+            {
+                "flight1": "Ruzyny International Airport.",
+                "flight2": "Vaclav Havel Airport",
+                "bus1": "Staroměstská Bus Station",
+                "bus2": "Malostranské náměstí Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Charles_Bridge",
+                "download": "8.pdf"
+            }
+    },
+    {
+        "id": 9,
+        "name": "Brooklyn Bridge",
+        "country": "USA",
+        "category": "oldest",
+        "image": "14.jpg",
+        "description": "New York’s famous Brooklyn Bridge is a suspension bridge that connects the boroughs of Manhattan and Brooklyn by spanning the East River over a length of 486.3 m (1,596 ft).",
+        "fulldescription":{
+            "h1":"Brooklyn Bridge",
+            "p2":"In a city full of iconic structures like New York City, the Brooklyn Bridge can be one of the most dramatic, and even if you haven't had the chance to set foot in it, New York City, you probably already know a little about it. The Brooklyn Bridge plays an important role in New York's transportation system because it connects Manhattan with Brooklyn, allowing lines of people to flow information between the two shores. Equal bay. Train stops, walk, bike or car.",
+            "h2":"History of Brooklyn Bridge",
+            "p4":"The Brooklyn Bridge is a bridge that spans the East River, connecting Lower Manhattan and Brooklyn Heights in New York. This work is considered a masterpiece of engineering in the 19th century, when for the first time steel was used for wire rope and granite stairs, creating a safe and beautiful passage. The Brooklyn Bridge supports six lanes of traffic (no trucks) and a shared pedestrian and bicycle path.",
+            "p5":"Since its opening in 1883, the bridge has become the pride of New York and the United States, an architectural excellence that is still admired by the world after nearly 140 years. Accordingly, the Brooklyn Bridge is recognized as a National Historic Landmark.",
+            "p6":"Completed in 1883, the bridge connecting the two boroughs of New York City, Manhattan and Brooklyn, is cut by the East River. With a main span of 486 meters (1,594.5 ft), it was the longest suspension bridge in the world as of 1903 and the first suspension bridge made of steel.",
+            "p7":"Since its opening, it has become an iconic part of New York. The bridge was only designated a National Historic Landmark in 1964.",
+            "p8":"It was originally called the New York Bridge – Brooklyn Bridge and East River Bridge. But then called the Brooklyn Bridge. Over the years, Brooklyn requests have gone through many reconfigurations. The Brooklyn Show is a symbol of the New York skyline. Interestingly, it is still switching between about 150,000 vehicles and pedestrians every day.",
+            "h3":"Experience Sightseeing, Taking Photos at the Brooklyn Bridge",
+            "p9":"Walking across the Brooklyn Bridge: Although tens of thousands of vehicles cross this bridge every day, walking is still considered the best way to explore the Brooklyn Bridge in the United States. Walking along the long bridge for about 500 meters, you will feel the clear historical imprints on the bridge. Brooklyn is also considered a great place to see the beauty of New York City.",
+            "p10":"Explore the Dumbo Neighborhood: Dumbo is a neighborhood located just below the Brooklyn New York Bridge. It used to be an abandoned industrial area, but today it has become a busy neighborhood with many different shops. You can visit New York City's most famous pizza called Grimaldi's or Jacques Torres chocolate shop, etc."
+    },
+        "info": 
+            {
+                "height": "84m",
+                "year": 1883,
+                "rate": 5,
+                "length": "1.834m",
+                "visited": "273.327"
+            },
+        "map" : "40.70627296158329, -73.99687477530114",
+        "transportation": 
+            {
+                "flight1": "John F. Kennedy Airport (JFK)",
+                "flight2": "Newark-(EWR) International Airport",
+                "bus1": "South St & Peck Slip Bus Station",
+                "bus2": "Old Fulton St/Elizabeth Pl Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://www.brooklynbridgepark.org/",
+                "download": "9.pdf"
+            }
+    },
+    {
+        "id": 10,
+    "name": "Bixby Creek Bridge",
+    "country": "USA",
+    "category": "most-visited",
+    "image": "15.jpg",
+    "description": "Completed in 1932 for just over $200,000, the concrete span, one of the highest bridges of its kind in the world, soars 79 meters (260 ft) above the bottom of a steep canyon carved by Bixby Creek. One look at the canyon’s steep and crumbling cliffs, and it’s obvious that building the bridge wasn’t exactly a cakewalk. ",
+    "fulldescription":{
+        "h1":"Bixby Creek Bridge",
+        "p2":"The Bixby Creek Bridge, also known as the Bixby Canyon Bridge, on California's Big Sur coast, is one of the most photographed bridges in California due to its aesthetic design, 'graceful architecture, and magnificent setting.'.  This is an arch bridge with reinforced concrete openings. The bridge is 120 miles (190 km) south of San Francisco and 13 miles (21 km) south of Carmel in Monterey County on Highway 1.",
+        "h2":"History of Bixby Creek Bridge",
+        "p4":"When the bridge was inaugurated in 1932, residents of the Big Sur area had almost no power during the winter, congesting the often impassable Old Coast Road leading to the mainland 11 (18 km). The bridge was built with a budget of $199,861 (equivalent to $3.16 million in 2020) and at 360 feet (110 m), is the longest concrete arch span in the California State Highway System. When it was completed, it was the tallest spanned arch bridge in the world, 45  and it remains one of the tallest.",
+        "p5":"The areas north and south of the bridge were privately owned until 1988 and 2001. An approved logging company harvested redwood on the former Bixby Farm north in 1986 and in 2000, a developer was approved to divide the old Brazilian Farm into the South. Local residents and conservationists resisted their plans, and both pieces of land were eventually acquired by local and federal government agencies. The $20 million anti-seismic retrofit was completed in 1996, although its 24-foot (7.3 m) width does not meet modern standards that require it to be 32 feet wide. (9.8m).",
+        "p6":"The bridge has a total length of 714 feet (218 m) and a width of 24 feet (7.3 m), with a clearance of 260 feet (79 m) and the main span of 360 feet (110 m), accounting for 50% of the total. the total area of the roadbed above the arch. The arches are 5 feet at the deck and 9 feet at the spring line, where they connect to the towers at the base. The palate is wide. The bridge is designed to withstand six times the expected load. Two large, upright, or supporting pillars on either side of the arch, while aesthetically beautiful, are not functionally necessary. The engineers of later arch bridges such as the Frederick W. Panhorst Bridge removed them from the design. The Rocky Creek Bridge and the Malpaso Creek Bridge to the north are also gap arch bridges constructed of reinforced concrete.",
+        "p7":"State engineers considered two options for crossing the creek, an inland route and a smaller bridge, or a coastal location and a larger bridge. The inland route would require an 890-foot (270 m) tunnel that cuts through the Santa Lucia Mountains to a 250-foot (76 m) bridge upstream. Engineers chose the coastal route because it is safer, more beautiful, and has the least impact on the environment.",
+        "p8":"California highway engineer CH Purcell and bridge designer FW Panhorst considered whether to build the span of the bridge in steel or concrete. A steel bridge will be more expensive to build and maintain, as sea air will require costly ongoing maintenance and painting. A steel bridge is also less suitable for the natural environment. Using sect reduces material costs and allows for more pay out of the total cost to workers, which was a positive aspect of Recession design. They chose concrete in part because it not only reduces construction and maintenance costs, but also enhances the color and composition of the natural stone partitions in the area. The state awarded the $203,334 contract to the lower bidder, the San Francisco Ward Engineering Company, on August 13, 1931. Construction work began on August 24, 1931.",
+        "h3":"Scenic spots",
+        "p9":"The bridge contributes to Highway 1's scenic attraction. The 72-mile (116 km) stretch of highway from Cambria to the Carmel Plateau is the In 1966, First Lady Lady Bird Johnson led the formal ceremony to designate the scenic route at Bixby Creek Bridge.."
+},
+        "info": 
+            {
+                "height": "85m",
+                "year": 1932,
+                "rate": 4,
+                "length": "218m",
+                "visited": "847.147"
+            },
+        "map" : "36.37150200803211, -121.90169101838647",
+        "transportation": 
+            {
+                "flight1": "General Mariano Escobedo International Airport",
+                "flight2": "Monterrey International Airport",
+                "bus1": "Crossroad Shopping Center",
+                "bus2": "Rio Rd / Carmel Center Pl"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Bixby_Creek_Bridge/",
+                "download": "10.pdf"
+            }
+    },
+    {
+        "id": 11,
+    "name": "Manchac Swamp Bridge",
+    "country": "USA",
+    "category": "impressive",
+    "image": "16.jpg",
+    "description": "The Manchac Swamp Bridge is a twin concrete trestle bridge comprising two bridges, one for the National Highway 51 and the other for Interstate 55. It extends over a supposedly haunted swamp, but even if the ghosts turn out to be nothing more than legend, the alligators are very real",
+    "fulldescription":{
+        "h1":"Manchac Bridge",
+        "p2":"Swamp Bridge Manchac Bridge was completed in 1979. It is one of the longest bridges in the United States.",
+        "h2":"History of Manchac Bridge",
+        "p4":"With a total length of 22.80 miles (36.69 km), it is one of the longest overwater bridges in the world and the longest on the Interstate Highway System.",
+        "p5":" The bridge is located on Interstate 55, which crosses Manchac Peak in Louisiana, about one-third the length of the highway (110 km distance).",
+        "p6":"Through 1979, each pier foot was inserted into the bottom at a depth of 76 m, and the construction cost for each pier foot (1.6 km) deck was 7 million heat.",
+        "p7":"Bridge uses one-third of the length of the state's high-speed lines",
+        "p8":"In 1976, the Manchac Swamp Bridge collapsed due to being hit by a barge. Then the bridge was rebuilt and became the second bridge in the United States to cross rivers and lakes.",
+        "h3":"Spooky legend",
+        "p9":"The swinging lagoon on which this bridge was built was assassinated by Rougarou, a monster in Cajun folklore with the body of a man and the head of a dog or dog. He roams the Louisiana lagoon looking for misbehaving children. Furthermore, it is also said to be followed by a voodoo princess, known as Julia Brown, who curses the surrounding area. Sources have an unsettling line in the songs she sang,' One day I'll die and take the whole town with me'. On the day of her funeral in 1915, a storm appeared out of nowhere and swept three prosperous towns.",
+        "p10":"Today, the Manchac Wetland Bridge is still sturdy and completely safe for travel despite the voiceless legends and myths. 2,250 drivers use it daily and the best part is that it is the longest bridge in the world for free. So be prepared to enjoy a scenic ride across the vast waters and chilly air in your face, or if you're 'lucky' enough, to experience the thrill of seeing the Voodoo Princess."
+},
+        "info": 
+            {
+                "height": "15m",
+                "year": 1979,
+                "rate": 4,
+                "length": "35m",
+                "visited": "400.000"
+            },
+        "map" : "30.28587730166544, -90.40145004585104",
+        "transportation": 
+            {
+                "flight1": "Louis Armstrong New Orleans International Airport",
+                "flight2": " Louis Armstrong New Orleans International Airport",
+                "bus1": "Laplace (E) Bus Station",
+                "bus2": "Joe Yenni + W. Loyola Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Manchac_Swamp_Bridge",
+                "download": "11.pdf"
+            }
+    },
+    {
+        "id": 12,
+    "name": "Wuhan Yangtze River Bridge",
+    "country": "CHINA",
+    "category": "highest",
+    "image": "17.jpg",
+    "description": "The Wuhan Yangtze River Bridge is the first elevated Metro line in Wuhan. As a Metro viaduct, it's been operational since 2004, and was designed to ease traffic congestion on bridges over the Yangtze River.",
+    "fulldescription":{
+        "h1":"Wuhan Yangtze River Bridge",
+        "p2":"The Wuhan Yangtze River Bridge is the first elevated Metro line in Wuhan. As a Metro viaduct, it's been operational since 2004, and was designed to ease traffic congestion on bridges over the Yangtze River.",
+        "h2":"History of Wuhan Yangtze River Bridge",
+        "p4":"The Wuhan Metro will have a total of eight lines. Line 1 is 29 kilometers long, includes 25 stations, and carries more than 220,000 passengers on 33 trains. The first phase of the line was opened in 2004, while phase II entered commercial operation in July 2010. The phase III expansion, extending the station northeast to Hankou North Station, went into commercial operation in May 2014.",
+        "p5":" The first phase of Wuhan Metro Line 2 is 27.73 km long with 21 stations, connecting Hankou and Wuchang districts. The dual route, fully electrified, can carry up to 800,000 passengers. The first phase of Wuhan Metro Line 3 is 30 km long with 24 stations, connecting Zhuanyang Avenue and Hong Tu. It opened to traffic in December 2015 and is expected to handle 470,000 passengers. Donghu Tunnel started operation in December 2015. The 10.6 km long tunnel extends from Hongmiao Overpass to Yujiashan North Road.",
+        "p6":"The first phase of line 4, connecting Wuchang and Wuhan, opened in December 2013. Opened in December 2014, phase II runs under the Yangtze River connecting Hanyang, which is 16.4 km long and covering consisting of 13 stations. The first phase of line 6 will be 35.95 km long, connecting the Southern Sports Center in Thr Zhuankou District with Hoanhu West Road in Dongxihu District. Construction on the route began in August 2013 and is expected to be completed by the end of 2016. CREG has been contracted to supply tunnel boring machines (TBMs) for Block 10 of line 6. The route The rest of the metro system, for which the master plan has been approved by the National Development and Reform Commission, is in the planning stage, with service scheduled to begin in 2017.Connecting Huangpulu to Zongguan Station, the first phase of Line 1 was extended in 2010 to link Dijiao Station with Huangpulu and Zongguen with Dongwudadao Station. Line 2 connects Hankou and Wuchang provinces, while line 3 connects Tunyang Avenue with Hankou district. Line 4 connects Wuchang and Wuhan counties and was built in two phases. The first phase connects Wuchang and Wuhan train stations, with the second phase starting at Wuchang railway station and ending at Hanyang Gold Mouth, passing through Zhang Zhidong Lu and Hanyang Avenue. Line 7 will run between Tianhe Bay and Hunan Stadium, while Route 8 will connect Panlong Town with Yuezhi Lake.",
+        "p7":"Construction of the tunnel for Wuhan Metro Line 2, Line 2 was partially built in a tunnel under the Yangtze River, at a depth of 48m, located between Fanhu and Hankou stations. The first two tunnels have a slope of 30%. Tunnel construction was completed in February 2012, with training work performed using drills provided by NFM Technologies. It took three months to train through the soil of the clogged device.",
+        "p8":"Wuhan Metro Corporation:Line 1 of Wuhan Metro uses 33 trains provided by Changchun Rail Car and China South Rail. Phase 1 of Line 2, in the future, can extend 8 more car trains, including 30 trains, maximum speed of 100 km/h, operating speed of 80 km/h, and average speed of 36,6 km/h. The coach has a corrosion-resistant steel and aluminum body. The Mute Metro wagons manufactured by CSR Zhouzhou Electric Locomotive are used as rolling stock on Line 4. The wagon's traction engine and system conversion yield 20%. noise, while the head machine's light alloy honeycomb structure and dual floor light alloy assembly reduce noise and make the trainees light and resilient.",
+        "h3":"Signal system of Wuhan Metro Group",
+        "p9":"The signaling system for line 1 of the Wuhan metro is provided by Thales. Other metro lines have been fitted with the URBALIS 888 signaling system provided by Alstom.",
+        "p10":"Bureau Veritas together with Casco Signal has provided signal solutions and independent safety assessment (ISA) services. for lines 2 and 4. Wuhan Metro signed a contract with Thales Saic Transport (TST) to signal Line 3 in April 2014."
+},
+        "info": 
+            {
+                "height": "340m",
+                "year": 2004,
+                "rate": 3,
+                "length": "37m",
+                "visited": "165.544"
+            },
+        "map" : "30.549703658781805, 114.28843695415905",
+        "transportation": 
+            {
+                "flight1": "Wuhan Tianhe Airport",
+                "flight2": "Wuhan Hannan General Airport",
+                "bus1": "烟波楼客运站 Bus Station",
+                "bus2": "武汉轮渡晴川客运站 Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Line_1_(Wuhan_Metro)",
+                "download": "12.pdf"
+            }
+    },
+    {
+        "id": 13,
+        "name": "Lake Pontchartrain Causeway",
+        "country": "USA",
+        "category": "longest",
+        "image": "18.jpg",
+        "description": "Otherwise known as 'The Causeway', the Lake Pontchartrain Causeway opened back in 1956 and is comprised of parallel twin bridges. It's touted to be one of the scariest bridges in the world, which is thanks to the fact you can't see land - at either end - when you're in the middle, and it looks as though the bridge is stretching off forever.",
+        "fulldescription":{
+            "h1":"Lake Pontchartrain Causeway",
+            "p2":"Lake Pontchartrain Expressway Bridge is a bridge spanning Lake Pontchartrain (Louisiana, USA).",
+            "h2":"History of Lake Pontchartrain Causeway",
+            "p4":"The length of 38 km connects the 2 cities of Metairie and the district of St. Tammany.",
+            "p5":" The first project connecting the South-North coast was first built in 1956, including 2 two-way lanes, with a total cost of 30.7 million USD.",
+            "p6":"In 1969, two more lanes were added, dividing the bridge into two separate one-way routes, at a cost of $26 million. On average, more than 30,000 vehicles join traffic on the bridge every day.",
+            "p7":"At mile 16, the bridge can be upgraded and opened for large ships to pass.",
+            "p8":"Since 1969, the bridge has been recorded in the Guinness Book of Records as the longest bridge over water in the world; By 2011, when the Jiaozhou Bay Bridge was inaugurated in China, Guinness set two types of records for the bridge over water: continuous length and overall over water. The Lake Pontchartrain Causeway then became the longest bridge over the water  while the Jiaozhou Bay Bridge was the longest over the water .",
+            "h3":"Experience Sightseeing",
+            "p9":"In addition, Lake Pontcharome is also home to fish, carrion animals, ducks, and catching birds... And this is a place that any visitor cannot miss when coming to the US.",
+            "p10":"To go to all the required trees takes you about 50 minutes. Coming here, tourists have many options for dining, entertainment, shopping, and outdoor sports activities such as boating, fishing, and cycling..."
+    },
+        "info": 
+            {
+                "height": "18m",
+                "year": 1956,
+                "rate": 5,
+                "length": "38m",
+                "visited": "123.440"
+            },
+        "map" : "30.194303545699164, -90.12421372328103",
+        "transportation": 
+            {
+                "flight1": "San Diego International Airport",
+                "flight2": "San Francisco International Airport",
+                "bus1": "New Orleans Lakefront Airport",
+                "bus2": "Louis Armstrong International Airport (MSY)"
+            },
+        "link": 
+            {
+                "website": "https://thecauseway.us/about-the-bridge/",
+                "download": "13.pdf"
+            }
+    },
+    {
+        "id": 14,
+    "name": "Beijing Grand Bridge",
+    "country": "CHINA",
+    "category": "impressive",
+    "image": "19.jpg",
+    "description": "The Beijing Grand Bridge is a railway viaduct and is the first of several bridges in this list that is part of the Beijing–Shanghai High-Speed Railway. China itself, at last count in 2021.",
+    "fulldescription":{
+        "h1":"Beijing Grand Bridge",
+        "p2":"Beijing-Shanghai High-Speed Rail (or abbreviated Jinghu high-speed rail in Chinese) a 1,318 km high-speed railway connecting the two main economic regions of the People's Republic of China: the Economic Zone around Bohai and the Yangtze River Delta.",
+        "h2":"History of Beijing Grand Bridge",
+        "p4":"Construction work began on April 18, 2008, and a ceremony to mark the completion of the track installation was held on November 15, 2010.",
+        "p5":"The line opened to commercial service on June 30, 2011. The railway is the longest highway in the world ever built in a single phase.",
+        "p6":"The Beijing-Shanghai high-speed railway is 1,318 km long, with a total construction investment of more than 33 billion USD, running through 7 provinces and cities along the east coast of China",
+        "p7":"Construction of the Tianjin Great Bridge is a very complex project. The majority of requests run through densely populated urban areas around the city. The idea of running a high-speed train along an elevated viaduct is a smart solution: every kilometer of railway built above ground will require 28.4 hectares (70 acres) of earthworks, and that will have an impact. break a field for urban. acreage. On the other hand, the choice of an elevated solution helps to minimize the physical impact of infrastructure in urban areas without forcing project designers to change the train's route.",
+        "p8":"Of course, the construction of a viaduct of such a long bridge in an urban area requires special precautions, such as the removal of the planks. Therefore, the drinking bridge is designed into 32 sections, each weighing 860 tons. They were installed in different ways and at different times, despite these difficulties, construction was carried out during the continental period. Work on the project began in 2006 and was completed in 2010, with the inauguration ceremony on June 30, 2011. At the time of completion, the bridge was recorded in the Guinness Book of Records as the second bridge in the world.",
+        "h3":"Accidents and incidents",
+        "p9":"A tragic accident occurred on this railway line at 8:30 pm on July 23 local time in Wenzhou city, Zhejiang province, causing two carriages to fall off a bridge. An accident happened when train D3115 was traveling from Hangzhou in Zhejiang province to Wenzhou city when it suddenly stopped in Shuangyu town in Wenzhou due to being struck by lightning, causing disappearance. This ship was then followed by another high-speed train, number D301, which crashed from behind, causing two of D3115's ships to crash into a bridge.",
+        "p10":"This catastrophic accident occurred on the track 15m above the ground, when the D301 train hit the stern of the D3115 train, causing 4 cars of D301 and 2 cars of D3115 to derail, falling straight to the ground, smashing. According to initial investigation, train D3115 was hit causing a power outage and had to stop on the track. Suddenly, this ship was strongly collided by ship D301 from behind. The incident happened less than a month after the Beijing-Shanghai high-speed rail line came into operation. This route also has many incidents when trains are delayed due to power outages."
+},
+        "info": 
+            {
+                "height": "25m",
+                "year": 2011,
+                "rate": 5,
+                "length": "48m",
+                "visited": "350.000"
+            },
+        "map" : "39.338073478701276, 117.31997335357777",
+        "transportation": 
+            {
+                "flight1": "三亚凤凰国际机场",
+                "flight2": "Shenzhen Bao'an International Airport   ",
+                "bus1": "镇江西站",
+                "bus2": "West Kowloon Station"
+            },
+        "link": 
+            {
+                "website": "https://www.wikidata.org/wiki/Q3114849",
+                "download": "14.pdf"
+            }
+    },
+    {
+        "id": 15,
+        "name": "Bang Na Expressway",
+        "country": "THAILAND",
+        "category": "impressive",
+        "image": "20.jpg",
+        "description": "Also known as the Burapha Withi Expressway, the Bang Na Expressway is a box-girder viaduct bridge, and six-lane elevated highway and toll road in Thailand. It was constructed at a cost of $1bn, .",
+        "fulldescription":{
+            "h1":"Bang Na Expressway",
+            "p2":"The capital of Thailand is Bang Na Magistrale. This is an amazing bridge construction, one of the longest bridges in the world.",
+            "h2":"History of Bang Na Expressway",
+            "p4":"The construction of the main road started in 1995 and lasted for 5 years. Officially, the bridge was inaugurated in February 2000. The length of the bridge is 54 km and the width is 27.2 meters. There are three lanes in each direction.",
+            "p5":"An impressive amount, more than a billion US dollars has been invested in the construction of this amazing bridge. Traffic congestion has been one of Bangkok's main problems for many years. To solve this problem, Bang Na Magistrale was built.",
+            "p6":"Although traffic on the bridge has tolls, Bang Na still has high requirements for drivers since it opened. Can be changed on request because car discovery also attracts a large number of tourists. From the main road, wonderful panoramas open up to the city.",
+            "p7":"The bridge was built over the busy Highway 34, which is considered one of the city's most congested and traffic-stricken roads.",
+            "p8":"Leading engineers and architects from Thailand and the United States, including Gin M.Mullers, participated in the development of the project as required. The construction of the bridge required more than 1.8 million cubic meters of concrete, ensuring the bridge's high reliability and resilience."
+            
+    },
+        "info": 
+            {
+                "height": "55m",
+                "year": 2000,
+                "rate": 5,
+                "length": "54m",
+                "visited": "21.000" 
+            },
+        "map" : "13.666361913527581, 100.64202682499027",
+        "transportation": 
+            {
+                "flight1": "Suvarnabhumi International Airport",
+                "flight2": "Don Muang International Airport",
+                "bus1": "Soi Nikom Bangplee 7 Bus Station",
+                "bus2": "Mittraphap Medical Clinic Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Bang_Na_Expressway",
+                "download": "15.pdf"
+            }
+    },
+    {
+        "id": 16,
+        "name": "Weinan Weihe Grand Bridge",
+        "country": "CHINA",
+        "category": "impressive",
+        "image": "21.jpg",
+        "description": "The Weinan Weihe Grande Bridge crosses the Wei River, China's 'natural gateway to the west' and the viaduct is part of the Zhengzhou–Xi'an High-Speed Railway. It was completed in 2008, with the rail line opening in 2010.",
+        "fulldescription":{
+            "h1":"Weinan Weihe Grand Bridge",
+            "p2":"Weinan Weihe Grand Bridge is a part of Zhengzhou–Xian High-Speed Railway connecting Zhengzhou and Xi'an, China",
+            "h2":"History of Weinan Weihe Grand Bridge",
+            "p4":"The 79,732 km long bridge (49,543 speeds) crosses the Wei River twice, as well as many other rivers, such as the Ling River, Luofu River, Xi River, Shi Di River and many others, high roads and railways",
+            "p5":"Once completed, it was the longest bridge in the world, but two new bridges on the Beijing–Shanghai High-Speed Railway completed in 2010 surpassed",
+            "p6":"The bridge was completed in 2008 but the railway itself has no vehicle information until 6 February 2010.  It is currently the 3rd longest bridge in the world.",
+            "p7":"During the construction of the Weinan Weihe Grand Bridge, there were at least 10,000 workers, 2,300,000 cubic meters of concrete and 45,000 tons of steel.",
+            "p8":"The Weinan Weihe Grand Bridge is part of the Zhengzhou-Xian High-Speed Railway connecting both the Zhengzhou and Xi'an parts of China. Its total length is 79,732 meters. Construction began in 2008 and it was opened for high-speed rail in 2008."
+    },
+        "info": 
+            {
+                "height": "33m",
+                "year": 2001,
+                "rate": 3,
+                "length": "79m",
+                "visited": "50.550"
+            },
+        "map" : "",
+        "transportation": 
+            {
+                "flight1": "郑州新郑国际机场",
+                "flight2": "Zhengzhou Shangjie Airport",
+                "bus1": "N/A",
+                "bus2": "N/A"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Weinan_Weihe_Grand_Bridge",
+                "download": "16.pdf"
+            }
+    },
+    {
+        "id": 17,
+    "name": "Tianjin Grand Bridge",
+    "country": "CHINA",
+    "category": "impressive",
+    "image": "22.jpg",
+    "description": "Completed in 2010 and opened in 2011, the Tianjin Grand Bridge is another bridge that forms part of the Beijing–Shanghai High-Speed Railway. The viaduct carries high-speed trains over heavily populated areas and includes 32 individual sections, each built and installed separately.",
+    "fulldescription":{
+        "h1":"Tianjin Grand Bridge",
+        "p2":"Just a few kilometers from Tianjin's lighthouses, European-style houses, and the upscale residential area of Wudadao (City's Five Avenues), a 113-kilometer (70-mile) city overpass ). This city of 15 million people is known for its harbor vitality – in fact, Tianjin means “paradise river” in Chinese – and is internationally renowned for hosting the summer session. of the World Forum in Davos. It is also home to incredible infrastructure. The Tianjin Grand Bridge is one of the longest bridges in the world and along its span is the high-speed railway between Beijing and Shanghai, one of the busiest and most durable travel routes in the world. country.",
+        "h2":"History of Tianjin Grand Bridge",
+        "p4":"Construction of the Tianjin Great Bridge is a very complex project. The majority of requests run through densely populated urban areas around the city. The idea of running a high-speed train along an elevated viaduct is a smart solution: every kilometer of railway built above ground will require 28.4 hectares (70 acres) of earthworks, and that will have an impact. break a field for urban. acreage. On the other hand, the choice of an elevated solution helps to minimize the physical impact of infrastructure in urban areas without forcing project designers to change the train's route.",
+        "p5":"Of course, the construction of a viaduct of such a long bridge in an urban area requires special precautions, such as the removal of the planks. Therefore, the drinking bridge is designed into 32 sections, each weighing 860 tons. They are installed in different ways and at different times.",
+        "p6":"Despite these difficulties, construction was carried out during the continental period. Work on the project began in 2006 and was completed in 2010, with the inauguration ceremony on June 30, 2011. At the time of completion, the bridge was recorded in the Guinness Book of Records as the second bridge in the world.",
+        "p7":"Sitting by the window of one of the high-speed trains that run from Beijing to Shanghai is like taking a trip through China's facial goods. Traversing 113 km of the Tianjin viaduct means traveling through a constantly changing landscape, from the most densely populated areas to the vast waters of the Pearl River Delta to the underground. including the entrance to a tunnel over 6 km (3.7) long connecting two artificial islands. To achieve all of this, the government has invested a huge amount of about 20 billion USD, thanks to China's development policies. When the Tianjin Bridge was built, China made the construction of high-speed railways a top priority.",
+        "p8":"The high-speed rail program began in 2003 with a 404 km (251 mi) line project between Qinhuangdao and Shenyang. Between then and 2013, two years after the completion of the races, the active races in the country spanned 10,000 kilometers (6,213 routes). Railroad escape routes were some of the most intricate constructions in this grand endeavor. In addition to the Tianjin Grand Bridge, the 164 km (101 mi) Danyang-Kunshan Great Bridge and the 48 km (30 mi) Beijing Grand Bridge were built during those years. To understand the importance of these viaducts in the design phase, consider the remark that 69% of the tracks built for the Shi-Zheng line run on viaducts.",
+        "h3":"Tianjin Grand Bridge and China's high-speed network",
+        "p9":"The high-speed racing from Beijing to Shanghai is free of obstacles. This is why the chosen solution for the Langfang to Qingxian route is a bridge designed to support high-speed travel, which has become China's preferred smart interface model. According to an official report from China Railway Corporation (the public company that manages the construction of the network), the country has 30,000 km (18,641) of high-speed transmission lines and aims to reach 38,000 km. (23,612) high-speed rail) ) by 2025. The race to build more tracks continues, and people continue to flock to these bullet trains to switch between the country's megacities. In 2017, the sixth anniversary of the opening of the Shanghai and Chengdu lines, the Chinese authorities reported that 630 million people took the train that year alone.",
+        "p10":"The numbers are repeated almost unchanged for all major routes connecting the east of the country to the west and south to the north — distances to be shortened by bullet trains, arrows Supersonic dating will soon reach speeds of 600 kilometers per hour (372 mph)."
+},
+        "info": 
+            {
+                "height": "29m",
+                "year": 2011,
+                "rate": 4,
+                "length": "113m",
+                "visited":" 150.000"
+            },
+        "map" : "39.32925195051949, 117.32073212560624",
+        "transportation": 
+            {
+                "flight1": "广州白云国际机场",
+                "flight2": "北京大兴国际机场",
+                "bus1": "Shanghai North Railway Station Station",
+                "bus2": "West Kowloon Station Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Tianjin_Grand_Bridge",
+                "download": "17.pdf"
+            }
+    },
+    {
+        "id": 18,
+        "name": "Cangde Grand Bridge",
+        "country": "CHINA",
+        "category": "most-visited",
+        "image": "23.jpg",
+        "description": "Like the Tianjin Grand Bridge, the Cangde Grande Bridge is also part of the Beijing–Shanghai High-Speed Railway.",
+        "fulldescription":{
+            "h1":"Cangde Grand Bridge",
+            "p2":"One of the longest and most distinctive bridges in the world as part of the Beijing-Shanghai High-Speed Rail joint venture, construction was completed in 2010.",
+            "h2":"Contruction of Cangde Grand Bridge",
+            "p4":"The bridge has only about 3,100 piers and already acts like a globe.",
+            "p5":"The length of Cangde Grand Bridge super-large bridge is 105.81 km (65.75 mi) and it has a total of 3092 piers",
+            "p6":"Cangde competes with Tianjin for third place in most records, with little maintenance and extensive development that the two bridges continue to grow."
+    },
+        "info": 
+            {
+                "height": "32m",
+                "year": 2010,
+                "rate": 3,
+                "length": "116m",
+                "visited": "400.100"
+            },
+        "map" : "31.38911116520445, 120.70492323884113",
+        "transportation": 
+            {
+                "flight1": "广州白云国际机场",
+                "flight2": "北京大兴国际机场",
+                "bus1": "West Kowloon Station ",
+                "bus2": "Pingtan Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Cangde_Grand_Bridge",
+                "download": "18.pdf"
+            }
+    },
+    {
+        "id": 19,
+        "name": "Changhua–Kaohsiung Viaduct",
+        "country": "TAIWAN",
+        "category": "impressive",
+        "image": "24.jpg",
+        "description": "The Changhua-Kaohsiung Viaduct is part of the Taiwan High-Speed Railway. Like the Cangde Grande Bridge, the viaduct was built to be able to withstand seismic activity, as Taiwan is seismically active thanks to the country's position near the junction of two tectonic plates.",
+        "fulldescription":{
+            "h1":"Changhua–Kaohsiung Viaduct",
+            "p2":"The Bridge of Death begins at Baguashan (八卦山) in Zhanghua County and ends at Zuoying in Kaohsiung.",
+            "h2":"History of Changhua–Kaohsiung Viaduct",
+            "p4":"Completed in 2004, the bridge is 157,317 kilometers (97,752 mi) long. The railway was built on a series of vast sea crossings, as they were designed to resist the effects of the soil. The purpose was to allow trains to come to a complete halt in a seismic condition and damage could be caused. repairable then a maximum design land battle",
+            "p5":"Bridges built over tourist routes have been known to be designed to survive the movements of visitors without major damage.",
+            "p6":"The bridge and train tracks were built to minimize earthquake damage as the area is prone to seismic activity."
+    },
+        "info": 
+            {
+                "height": "38m",
+                "year": 2007,
+                "rate": 5,
+                "length": "157m",
+                "visited": "250.000"
+            },
+        "map" : "24.08559328477158, 120.53864307571989",
+        "transportation": 
+            {
+                "flight1": "臺南航空站",
+                "flight2": "Kaohsiung International Airport",
+                "bus1": "Changhua Station",
+                "bus2": "Ubus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Changhua%E2%80%93Kaohsiung_Viaduct",
+                "download": "19.pdf"
+            }
+    },
+    {
+        "id": 20,
+    "name": "The Danyang-Kunshan Grand Bridge",
+    "country": "CHINA",
+    "category": "most-visited",
+    "image": "25.jpg",
+    "description": "The Danyang-Kunshan Grand Bridge in China currently holds the record for the impressive bridge in the world, coming in at a whopping 164km (104 miles) long. Like three others in this list, it's also part of the Beijing–Shanghai High-Speed Railway, and was built at a cost of around $8.5bn - that's $51m for each mile of the bridge. The Danyang-Kunshan Grand Bridge was not only built to withstand seismic activity.",
+    "fulldescription":{
+        "h1":"The Danyang-Kunshan Grand Bridge",
+        "p2":"The construction of Danyang-Kun Son Grand Bridge was completed in 2010. A strong team of 10,000 people, including core workers, engineers and rest specialists, worked tirelessly. Tired and dedicated to make sure that the construction of the longest bridge in Asia can be completed within the allotted time. time frame. As of June 2011, the Danyang-Kunshan Grand Bridge in China holds the Guinness World Record as the longest bridge in the world.",
+        "h2":"History of The Danyang-Kunshan Grand Bridge",
+        "p4":"The construction of Danyang-Kun Son Grand Bridge was completed in 2010. A strong team of 10,000 people, including core workers, engineers and rest specialists, worked tirelessly. Tired and dedicated to make sure that the construction of the longest bridge in Asia can be completed within the allotted time. time frame. As of June 2011, the Danyang-Kunshan Grand Bridge in China holds the Guinness World Record as the longest bridge in the world.",
+        "p5":"The construction of the Danyang-Kunshan Great Bridge was not an easy task. As a big dream project, it is expected to bring about a boom in China's communications infrastructure. China has been strengthening its industrial capabilities since early 2000 by planning to build several long bridges.",
+        "p6":"To realize that ambition, the construction of the longest bridge in Asia is needed in the short term. With the construction of the Danyang-Kunshan Great Bridge, China has easily surpassed its massive industrial and public transportation system.",
+        "p7":"This bridge plays a pivotal role to connect the prominent industrial centers of the country.",
+        "p8":"China Road and Bridge Corporation (CRBC), a subsidiary of China Communications Construction Company, designed and built the bridge. It is a Chinese government-funded company that was originally a division of the Foreign Aid Office of the Ministry of Communications of China. The company leads major civil engineering projects in China such as highways, railways, bridges, wharves, and tunnels.",
+        "h3":"Some notable events related to the construction of the bridge",
+        "p9":"It took 4 years of effort to build the Great Bridge Danyang-Kunshan-This bridge broke the record for the world's largest water bridge in Louisiana, 24 miles long across Lake Pontchartrain Causeway-A specific section of this 5.6-long bridge spans Yangcheng Lake in the sea-open Suzhou",
+        "p10":"A large amount of steel cables and 450,000 tons of structural steel were used to build this part of the bridge- This bridge has been built in a way that is least resistant to natural disasters like hurricanes and earthquakes 8 on richter- This bridge can withstand direct impact from naval ships with a tonnage of 300,000 tons or less"
+},
+        "info": 
+            {
+                "height": "55m",
+                "year": 2010,
+                "rate": 2,
+                "length": "164m",
+                "visited":"200.000"
+            },
+        "map" : "31.38911116520445, 120.70492323884113",
+        "transportation": 
+            {
+                "flight1": "无锡硕放机场",
+                "flight2": "Nanjing Lukou International Airport",
+                "bus1": "河南角 Bus Station",
+                "bus2": "太平镇沈桥 Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Danyang%E2%80%93Kunshan_Grand_Bridge",
+                "download": "20.pdf"
+            }
+    },
+    {
+        "id": 21,
+    "name": "Vàng Bridge",
+    "country": "Viet Nam",
+    "category": "impressive",
+    "image": "3.jpg",
+    "description": "Golden Bridge - Da Nang: The bridge is supported by the hands of the Gods.",
+    "fulldescription":{
+        "h1":"The Vàng Bridge",
+        "p2":"Golden Bridge - a wonderful architecture, its 'residence' is located in the Thien Thai garden at Ba Na Hills Resort, which opened in June 2018. The famous Ba Na spikes are now visible. more famous thanks to this interesting bridge.",
+        "h2":"History of Vàng Bridge ",
+        "p4":"Some information about the Golden Bridge on Ba Na hill, Da Nang city: Length: 148.6 m (490 feet), with 8 spans, Width: 3m, Height: 1,414m above sea level, Lovely face Bridge: made of wooden slats, 5cm thick, gilded balustrade.",
+        "p5":"Its allure is its unique architecture. A pair of gray hands complete the style, cradled in the palm the yellow bridge is as soft as silk and stands out among the green forest. This contrasting image creates an old, nostalgic atmosphere From a distance, the Golden Bridge looks like the hands of a mountain god supporting people in Thien Thai garden. Many people think that the hands lifting the bridge look like stone carvings, but that is not the case. The designers created it by framing the arm with wire mesh, clearing it with concrete, then finishing it with a matte glass exterior and decorating it. Construction of the entire bridge took about a year.",
+        "p6":"The work was designed by the Center for Landscape Architecture Design (TA Landscape Architecture), under the Ho Chi Minh City University of Architecture.",
+        "p7":"With a length of nearly 150 meters and an impressive design, the Golden Bridge at Ba Na Hills is likened to a silk strip floating in the clouds. The Golden Bridge leaning against Ba Na mountain and supported by a pair of hands to emerge from the hillside is really an extremely unique 1-0-2 design. Therefore, the Golden Bridge is also known as the Ban Tay Bridge in Da Nang. Compared with the volunteer image of the hands is a brilliant golden 'silk strip' nearly 150m long, including 8 spans, the longest span: 21,2m.",
+        "p8":"The bridge pier foundation structure is made of reinforced concrete, the bridge pier and spider legs are made of steel pipes. Bridge span structure with steel I-beam system linked together in the form of a solid frame. In addition, the case is covered with gold emulsion paint panels combined with shiny gold titanium-plated stainless steel balustrades to create a bright effect in the sunlight. The bridge deck is paved with natural birch wood. This is a selected wood that is very durable in the air, not subject to termites. With such design and materials, the project ensures sustainability against all harsh weather conditions in Ba Na. Also, The design of the bridge is difficult, Design is a process. The design team had to work with reality in many places, there were adjustments to the distance that made the geology unsuitable or complicated terrain difficult to construct, as well as the retention of the entire tree system. below the chasm, minimizing impact. However, with the continuous efforts and coordination between design, construction, and coordination, the Golden Bridge has been realized according to the original core idea, even with objective ways to make the solution reason to help open up a more impressive view of the surrounding natural landscape. Every detail is continuously considered in the design.",
+        "h3":"Experience Sightseeing, Taking Photos at the Vàng Bridge ",
+        "p9":"Experence of Tanking Photo at Vàng Birdge :Ba Na Hills has always been considered the way to heaven, so the weather here is always beautiful. In particular, early morning or sunset are the two brightest times of the Golden Bridge. You can turn off liking to take very beautiful pictures and very shimmering backgrounds. In the early morning, patches of fog like a white silk band wrap around the golden bridge, creating a very fanciful space. When the sun comes out, warm rays of sunlight fill everywhere, creating a poetic feeling like a fairyland.",
+        "p10":"Experience Sightseeing :In addition to the Golden Bridge, this place also has many attractive entertainment destinations to welcome visitors. Normally, you should travel to Da Nang in the summer or spring, from February to August of the solar calendar. At this time, the weather is relatively pleasant and very convenient for traveling and sightseeing."
+},
+        "info": 
+            {
+                "height": "5 m",
+                "year": "2018",
+                "rate": 5,
+                "length": "150 m",
+                "visited": "860.000"
+            },
+        "map" : "15.998052817176179, 107.99631409113965",
+        "transportation": 
+            {
+                "flight1": "Danang International Airport",
+                "flight2": "N/A",
+                "bus1": "Tourdanangcity",
+                "bus2": "City Tour"
+            },
+        "link": 
+            {
+                "website": "https://vi.wikipedia.org/wiki/C%E1%BA%A7u_V%C3%A0ng",
+                "download": "21.pdf"
+            }
+    },
+    {
+        "id": 22,
+    "name": "Yavuz Sultan Selim Bridge",
+    "country": "TURKEY",
+    "category": "highest",
+    "image": "26.jpg",
+    "description": "With more than 1,056 ft of height, this is the second tallest bridge of the world. This suspension bridge passes over the Bosphorus strait, with the Black Sea nearby. The designers of the bridge are Jean-François Klein and Michel Virlogeux. It was opened for public in 2016. During its initial days, the bridge was known as the Third Bosphorus Bridge.",
+    "fulldescription":{
+        "h1":"The Yavuz Sultan Selim Bridge",
+        "p2":"The construction of Turkey's Yavuz Sultan Selim bridge not only creates a third crossing point connecting Europe and Asia across the mighty Bosphorus but also marks an important step forward in radio cable technology. . The new bridge connecting the North Marmara Highway crosses the strategic waterway, allowing traffic to bypass Istanbul, improving highway capacity and reducing congestion on existing traffic routes.",
+        "h2":"History of The Yavuz Sultan Selim Bridge",
+        "p4":"The construction of Danyang-Kun Son Grand Bridge was completed in 2010. A strong team of 10,000 people, including core workers, engineers and rest specialists, worked tirelessly. Tired and dedicated to make sure that the construction of the longest bridge in Asia can be completed within the allotted time. time frame. As of June 2011, the Danyang-Kunshan Grand Bridge in China holds the Guinness World Record as the longest bridge in the world.",
+        "p5":"The construction of the Danyang-Kunshan Great Bridge was not an easy task. As a big dream project, it is expected to bring about a boom in China's communications infrastructure. China has been strengthening its industrial capabilities since early 2000 by planning to build several long bridges.",
+        "p6":"To realize that ambition, the construction of the longest bridge in Asia is needed in the short term. With the construction of the Danyang-Kunshan Great Bridge, China has easily surpassed its massive industrial and public transportation system.",
+        "p7":"This bridge plays a pivotal role to connect the prominent industrial centers of the country.",
+        "p8":"China Road and Bridge Corporation (CRBC), a subsidiary of China Communications Construction Company, designed and built the bridge. It is a Chinese government-funded company that was originally a division of the Foreign Aid Office of the Ministry of Communications of China. The company leads major civil engineering projects in China such as highways, railways, bridges, wharves, and tunnels.",
+        "h3":"Some notable events related to the construction of the bridge",
+        "p9":"It took 4 years of effort to build the Great Bridge Danyang-Kunshan-This bridge broke the record for the world's largest water bridge in Louisiana, 24 miles long across Lake Pontchartrain Causeway-A specific section of this 5.6-long bridge spans Yangcheng Lake in the sea-open Suzhou",
+        "p10":"A large amount of steel cables and 450,000 tons of structural steel were used to build this part of the bridge- This bridge has been built in a way that is least resistant to natural disasters like hurricanes and earthquakes 8 on richter- This bridge can withstand direct impact from naval ships with a tonnage of 300,000 tons or less"
+},
+        "info": 
+            {
+                "height": "332m",
+                "year": "2016",
+                "rate": 3,
+                "length": "2,164m",
+                "visited": "700.000"
+            },
+        "map" : "41.20293021501991, 29.112450883345687",
+        "transportation": 
+            {
+                "flight1": "Istanbul Airport",
+                "flight2": "Sabiha Gökçen International Airport",
+                "bus1": "Garipçe Merkez Bus Station",
+                "bus2": "Bağlar Yolu Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Yavuz_Sultan_Selim_Bridge",
+                "download": "22.pdf"
+            }
+    },
+    {
+        "id": 23,
+    "name": "Sutong Yangtze River Bridge",
+    "country": "CHINA",
+    "category": "longest",
+    "image": "27.jpg",
+    "description": "Running between Changshu and Nantong, the bridge is a cable-stayed one with a height of 1,004 ft. The bridge is being used since 2008.  The stunning construction has been awarded by the American Society of Civil Engineers in 2010. The award was named Outstanding Civil Engineering Achievement.",
+    "fulldescription":{
+        "h1":"The Sutong Yangtze River Bridge",
+        "p2":"In June 2003, construction work began on the world's longest span rope bridge to date. The Sutong Bridge is located between the cities of Nantong and Suzhou in Jiangsu Province, and becomes part of the national trunk route planned by the Ministry of Transport from Jiayin in Helongjiang Province to Nanping in Fuijang Province.",
+        "h2":"History of Sutong Yangtze River Bridge",
+        "p4":"The Sutong Bridge, which spans the 6 km long Truong Giang River, has several roles: it supports the main road network in the province and covers the whole country; increased safety for vehicles crossing the river; and has reduced the pressure of increased traffic. The bridge was completed in January 2008 and the official information about the vehicle in June 2008. Sutong Bridge is an all-China project. No international involvement was invited for the bridge construction work. The selected construction contractor is China Harbor Engineering Group (CHEC). The project manager is the Jiangsu Sutong Bridge Construction Command, a group compiled from the Ministry of National Communications, Jiangsu Province, and the cities of Suzhou and Nantong. Doka (Deutsche Doka Schalungstechnik GmbH), a manufacturer of formwork, is providing climbing technology for use in construction.",
+        "p5":"The Yangtze River Sutong Bridge was designed by Dr. Robin Sham, CBE, FICE, a Hong Kong-born British structural engineer specializing in bridges. With a span of 1,088 meters (3,570 ft), it was the longest main-span rope bridge in the world from 2008 to 2012. Its two side spans are 300 meters (980 ft) each, and include a small cable span. . The bridge was recognized as an Outstanding Construction Engineering Product of the Year 2010 (OCEA) by the American Society of Civil Engineers. The bridge's two towers are 306 meters (1,004 ft) tall and the fifth tallest in the world. The total required length is 8,206 meters (26,923 ft). Construction began in June 2003 and was required to be connected by June 2007. The bridge was opened to traffic on May 25, 2008, and officially opened on June 30, 2008. Costs of construction are Estimated at US$1.7 Billion. The completed shaft of the bridge shortens the travel time between Shanghai and Nantong, formerly four hours away, to one hour. [6] It brought Nantong one step closer to becoming an important part of the Yangtze River Delta economic region, and has attracted more foreign investors to the city. ",
+        "p6":"The bridge also played a pivotal role in the development of the poor areas of northern Jiangsu. The tower is an inverted Y-shaped reinforced concrete structure, with a connection between its legs. The deck is a girder steel box with internal transverse and longitudinal compartments and ramps on both sides of the deck. The total width of the bridge deck is 41 meters including the bridgehead. Construction of the Zhaodian-Huangdu Section of the Nantong-Shanghai Railway was started in March 2014. After the completion of the foundation, the bridge lay main track, and “communication, signaling, energy and electrification” works, transport operation and integrated testing began on April 20, 2020.",
+        "p8":"The total construction cost of Sutong Bridge is estimated at 6.45 billion USD (750 million USD). $2.2 billion ($266.12 million), 35% of the total, was collected by the local governments of Jiangsu Province (60%), Suzhou City and Nantong City (each city) ) 20%). The remaining amount is raised through loans from domestic banks. The bridge is being tolled and the fare received is being used to repay the loans.",
+        "h3":"Recommended itinerary for travel",
+        "p9":"The Yangtze River Bridge is a highway bridge with a straight line, so you should drive sensibly according to the relevant regulations and just go all the way with your favorite music.",
+        "p10":"Best time to travel: Sutong Bridge is open all year round and is not affected by the seasonal climate so you can choose your season to visit. However, I would like to remind you that the holidays have a lot of people floating, so the traffic jam on the bridge is very serious, and can last for tens of minutes or even just a few hours. Therefore, we should do our best to avoid holidays, choose working days or avoid the daily rush hour traffic."
+},
+        "info": 
+            {
+                "height": "306m",
+                "year": "2008",
+                "rate": 4,
+                "length": "8.206m",
+                "visited": "355.440"
+            },
+        "map" : "31.78372649355525, 121.0011495388528",
+        "transportation": 
+            {
+                "flight1": "上海虹桥国际机场",
+                "flight2": "Nanjing Lukou International Airport",
+                "bus1": "纬四路 Bus Station",
+                "bus2": "聚沙 Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Sutong_Yangtze_River_Bridge",
+                "download": "23.pdf"
+            }
+    },
+    {
+        "id": 24,
+        "name": "Russky Bridge",
+        "country": "RUSSIA",
+        "category": "longest",
+        "image": "28.jpg",
+        "description": "This cable-stayed bridge joining the Muravyov-Amursky Peninsula and Russky Island was opened in 2012. The construction is maintained and supervised by SK MOST and NPO Mostovik. With 4 lanes on it, the bridge is around 1,053 ft tall, rightly claiming the third position in regards to the highest bridges of the world.",
+        "fulldescription":{
+            "h1":"The Russky Bridge Bridge",
+            "p2":"The unique bridge across the East Bosphorus strait connecting Russky Island and mainland Vladivostok is a truly amazing engineering feat.",
+            "h2":"History of The Russky Bridge Bridge",
+            "p4":"Considered one of the largest cable bridges in the world, with a center span of 1104 meters, it has set a record in world engineering practice.",
+            "p5":"The bridge to Russky Island is the longest rope-wrapped bridge in the world, with a central span of 1,104 m (1,207 yds). The bridge also has the second tallest pillars after the Millau Escape Bridge and the longest rope. The design of the requirement was determined based on two main factors: The shortest distance from one coast to another at the location. overpass location 1,460 m (1,600 yds). The channel depth is navigable up to 50 m (160 ft). The locality of the site of the bridge over is characterized by extreme climatic conditions: temperatures vary from –31 to +37 °C (–24 to +99 °F); storms carrying winds of up to 36 m/s (130 km/h; 81 mph) and waves up to 6 m (20 ft); and ice that forms in winter can be up to 70 cm (28 in) thick.",
+            "p6":"The question that the city needed a bridge connecting it to Russky Island was raised at the beginning of the 20th century. Two projects were developed, but neither was implemented. Construction of the modern cable bridge in Vladivostok did not begin until 2008 when it was seen as part of the preparations for the Asia Pacific Economic Cooperation (APEC) Summit to be held. out to Russky Island in September 2012.",
+            "p7":"The bridge, known as the large-scale site and red point of the upcoming economic event, has become not only an important transport system link of Primorsky Krai but also one of the attractions The most important is its brightest price.",
+            "p8":"Residents consider this unique bridge to be one of the main wonders of Vladivostok, because now they have the opportunity to reach Russky Island faster and more comfortably (so far the only way to do so is by crossing application), as well as admire the unique architecture that has become the pride and adornment of Vladivostok. Today, it is the tallest suspension bridge in the world: the height of its main piers is 327 meters, and its 'tensions' - or cable cables' - total length is almost 55 km. The bridge has four lanes for traffic."
+    },
+        "info": 
+            {
+                "height": "321m",
+                "year": "2012",
+                "rate": 3,
+                "length": "3100m",
+                "visited": "546.444"
+            },
+        "map" : "43.063052513125626, 131.90777005254623",
+        "transportation": 
+            {
+                "flight1": "Vladivostok International Airport",
+                "flight2": "Aeroport",
+                "bus1": "Nazimovskaya batareya Bus Station",
+                "bus2": "Novosiltsevskaya batareyaBus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Russky_Bridge",
+                "download": "24.pdf"
+            }
+    },
+    {
+        "id": 25,
+    "name": "Stonecutters Bridge",
+    "country": "HONGKONG",
+    "category": "highest",
+    "image": "29.jpg",
+    "description": "The cable-stayed bridge is 978 ft high and has been operational since 2009. It has two bridge towers, one in the Stonecutters Island and the other one being in Tsing Yi Island. Besides being the fifth highest bridge in the world, this one has another record in its kitty for having the third impressive cable-stayed span.",
+    "fulldescription":{
+        "h1":"The Stonecutters Bridge",
+        "p2":"As the second longest rope bridge in the world, Stonecutters Bridge has become a famous tourist attraction in Hong Kong attracting tourists to visit. The bridge spans the Rambler Canal from the landing of Container Harbor on the east side of Stonecutter Island. With the premium 3-lane dual cable in Stonecutters.",
+        "h2":"History of Stonecutters Bridge",
+        "p4":"Within five years, traffic on the road connecting the airport to downtown Hong Kong has doubled, with 100,000 cars moving every day and always in a state of centimeter. And the Hong Kong special government has solved this traffic problem by building the Stonecutter bridge across the nearly 1km long canal.",
+        "p5":"Started construction in 2004, the bridge is a joint project between the US-Japan and the Hong Kong special government with a capital of up to 354 million USD, completed in 2009 becoming one of the most complete bridges in the world. adjust to long most (waste wire category-design) in the world, with an overall length of 1,596 m. A long stretch from Channel Ramber at the entrance to the busy Kwai Chung container port, it forms part of 8th Avenue, linking Tsing Yi and Cheung Sha Wan. This century work has a main horizontal span of more than 1km, using a 65-segment steel bridge deck weighing from 400 to 600 tons. This work is a very special design because the 7 middle spans must support the large weight of the entire bridge to provide a large force of traffic across the bridge. Use support above the air and limit the use of support from the ground best",
+        "p6":"The main pillar is the starting point of the cable connections connecting the bridge tower to the port. The heaviest cable is up to 79 tons, 304 m long. During the installation process, the staff had to move very carefully, and assembling the cable was extremely difficult, because the higher the cable, the greater the wind force. The structure of the cables with trimmed waves brings calculation efficiency when under the impact of rain and wind. The chutes are connected by joints using the user's welding machine to the U-shaped chute. To reduce the vibration loads that waste wire bridges have to worry about, the Stonecutters bridge uses devices. carried in two towers, to restore balance to the rope bridge. The 2 piers, also known as the bridge towers, are one of the highest points in Hong Kong. The 304 m high Hai Tac tower radiates straight into the blue sky during the day and is bright at night thanks to the bird's nest light system on the top of the tower. In addition, every place in this building is installed an LED lighting system to decorate with many different colors. The bridge architecture creates a sculptural adaptation with a slender tower and nerves that feel like sharp knife buds slashing through the air, glowing in the middle of the night.",
+        "p7":"In addition to the transfer task between the airport and the center, the Stonecutters bridge also takes care of shipping activities, sea trade, and import and export of Hong Kong islands and islands. And with its geographical position, high applicability, and unique and sophisticated architecture, the bridge was honored with a series of awards in the field of transport infrastructure design in the world.        ",
+        "p8":"Hong Kong tourism cannot forget this century bridge because it will surprise everyone. As a forward-looking project, the bridge also makes people bewildered by its mobility, which is hardly comparable in the world. Bustling, fast-paced but still keeping the line in the sea activities of Nearest Harbor as shown right below this project",
+        "h3":"Some sightseeing experience of the bridge",
+        "p9":"The bridge can be reached by public transport such as bus or tram from Kwai Fong MTR station to Flower Dockyard via container terminals and Tsing Yi oil depot, visitors continue to walk to the bridgehead entrance from Road exit Nam Wan tunnel. However, it is not possible to cover all this massive infrastructure from the bridge points. Therefore, when visiting destinations in Hong Kong, try to choose for yourself a panoramic view of the bridge, to save valuable moments with this majestic construction.",
+        "p10":"According to many people, you can choose to go to the Catamaran or go to Phung Chau, then walk to the balcony, you can admire the Stonecutter bridge in a more comprehensive way. Another way is to search for Ferry Pier Island Park from the center of Ma Wan, to have a longer distance from the bridge, allowing visitors to see the entire bridge of this century. , displayed as a fancifully exposed image. That's why Stonecutters Bridge becomes more and more beautiful, wrapped like a queen in the open sky, attracting all visitors to visit."
+},
+        "info": 
+            {
+                "height": "298m",
+                "year": "2009",
+                "rate": 5,
+                "length": "1.596m",
+                "visited": "335.410"
+            },
+        "map" : "22.32591831900839, 114.1187332827928",
+        "transportation": 
+            {
+                "flight1": "Hong Kong International Terminals",
+                "flight2": " Hong Kong International Airport",
+                "bus1": "Container Terminal 8 Bus Station",
+                "bus2": "Styron (Hong Kong) Ltd. Tsing Yi Site Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Stonecutters_Bridge",
+                "download": "25.pdf"
+            }
+    },
+    {
+        "id": 26,
+        "name": "Chishi Bridge",
+        "country": "CHINA",
+        "category": "longest",
+        "image": "30.jpg",
+        "description": "The Chisi Bridge has a height of around 940.4 ft and opened to use in 2016. It carries the famous G76 Xiamen–Chengdu Expressway and crosses the Qingtou River. It has the impressive span than the  Millau Viaduct but in height, it is far less than the latter.",
+        "fulldescription":{
+            "h1":"The Chishi Bridge Bridge",
+            "p2":"Chishi Bridge (Chinese: 赤石大桥) is located in Chishi Town, Yichang County, Shenzhou City, Hunan Province, China. It is an important part of the Hunan Section of the Xiamen-Chengdu Expressway (China National Highway G76).",
+            "h2":"History of The Chishi Bridge",
+            "p4":"Chishi Bridge started construction on March 28, 2010; the scheduled closure of the main bridge has been completed on June 3, 2016, and the bridge has been fully connected; It was announced vehicle on October 28, 2016.",
+            "p5":"The bridge is 7,457 ft (2,273 m) long, the main bridge is 4,823 ft (1,470 m) long and the bridge body (tower) is 940 ft (286.6 m) high. The bridge deck is a 4-lane two-way highway with a design speed of 80 km/h. Its total cost was 1.3 billion yuan (US$230 million).",
+            "p6":"In May 2008, Hunan Transportation Institute began to design the Chishi Bridge. On March 28, 2010, Chishi Bridge started construction. On October 29, 2013, the bridge completed the main tower bale strapping work. On June 22, 2014, the project of concreting the bridge deck and anchoring was carried out. On October 29, there was a fire incident at pillar 6 of the bridge, causing 9 bar wires, the bridge was temporarily stopped for repair. On November 5, 2015, the bridge underwent a cable replacement project; on 11/10 requested to re-operate and continue construction. On March 6, 2016, it was requested to complete the project of closing the main bridge and opening the entire route; On October 28, the Chishi Bridge was announced.",
+            "p7":"The total length of the Chishi Bridge is 7,457 ft (2,273 m), the main bridge is 4,823 ft (1,470 m), the span arrangement is (165+3×380+165) m and the deck width is 92 ft (28 m). The body of the bridge (tower) is 940 ft (286.6 m) high and the deck height is 597 ft (182 m). The heights of columns 5 to 8 are 266.63m, 285.63m, 293.13m, and 296.63m, respectively. 293.13m and 277.63m.",
+            "p8":"The distance between the two cable planes of the cable in the horizontal direction is 26.16m. Each tower is equipped with 23 pairs of conductors. The bridge has a total of 184 pairs and the standard strength is 1860 MPa. Its total cost was 1.3 billion yuan (US$230 million)."
+    },
+        "info": 
+            {
+                "height": "286m",
+                "year": "2016",
+                "rate": 5,
+                "length": "2.270m",
+                "visited": "500.400"
+            },
+        "map" : "22.86809284850711, 115.07387506746447",
+        "transportation": 
+            {
+                "flight1": " 厦门高崎国际机场",
+                "flight2": "N/A",
+                "bus1": "Yizhang Baitong Bus Station Ticket Office",
+                "bus2": "肖家 Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Chishi_Bridge",
+                "download": "26.pdf"
+            }
+    },
+    {
+        "id": 27,
+        "name": "Akashi Kaikyō Bridge",
+        "country": "JAPAN",
+        "category": "longest",
+        "image": "31.jpg",
+        "description": "Opened in 1998, the bridge has a height of around 928 ft. Designed by Satoshi Kashima, the bridge has the impressive suspension span in the entire world. This is also alternatively known as Pearl Bridge and Akashi Strait Bridge. Consisted of 3 spans, this happens to be standing on an earthquake-prone area, so engineers have featured various technological things to make it stay strong and endure natural calamities.",
+        "fulldescription":{
+            "h1":"TheAkashi Kaikyō Bridge",
+            "p2":"Akashi-Kaikyō Bridge (明石海峡大橋 Akashi Kaikyō Ō-hashi?), also known in English as Pearl Bridge, is a suspension bridge in Japan with a hammock structure in Northern Japan across Akashi Bay. ; connects Maiko in Kobe with Iwaya on Awaji Island and is part of the Honshu-Shikoku Expressway. It was the longest span suspension bridge in the world at that time; the main span length is 1991m. The total length required is 3911m.",
+            "h2":"History of The Akashi Kaikyō Bridge",
+            "p4":"With a length of nearly 4 km, Akashi Kaikyo Bridge is the longest suspension bridge in the world. This bridge connects the city of Kobe with Awaji Island, and because it is part of the Kobe-Awaji-Naruto Expressway, it connects to Shikoku Island. The bridge itself is also an attraction with viewpoints on the tops of 300 m high columns.",
+            "p5":"The bridge has all three spans. The main span is 1991 meters long, the two side spans are 960 meters long. The total length required is 3911 m. Its main span was originally 1990 m, however, it was extended by one meter during the Kobe earthquake on January 17, 1995. The bridge was designed with two articulated rigid systems that allow it to withstand winds of 286 km/h (178 mph), withstanding earthquakes of magnitude 8.5 on the Richter scale, and shocks of water currents. The bridge is also designed to work as a pendulum balance system to correct frequent movements against the forces acting on it. The two main towers of the bridge are 298m high above sea level",
+            "p6":"The total cost is estimated at 500 Billion Yen (≈5 Billion US dollars). This estimated cost will be recovered by toll collection across the bridge. However, the fee to cross the bridge is too high (2300 yen or 20 USD). Ironically at that time, very few drivers used this red bridge, instead, they used a lighter and cheaper car.",
+            "p7":"Across the width of the impressive Akashi Strait. The bridge was opened to traffic in 1998. Illuminated by more than 1,800 lights. You can climb to the top of these columns.",
+            "p8":"This bridge is a public highway section and a vital part of the Kobe-Awaji-Naruto Expressway. The Maiko Sea Walk and Bridge Expo Center is located a short distance from Maiko Station on the JR Sanyo Line.",
+            "h3":"Some sightseeing experience of the bridge",
+            "p9":"Below the bridge from south Kobe, you can access the Maiko Sea Walkway, where you can see the inside of this magnificent bridge as well as the Akashi Strait and Tokyo Bay. For an even more special all-inclusive ticket to this bridge, consider using one of the guided tours from a company called the Honshu-Shikoku Bridge Expressway Company. These tours allow you to climb to the tops of the 300-meter-high bridge pillars and access areas on the bridge that are normally restricted to pedestrians.",
+            "p10":"Special lighting: The bridge has about 1,800 lights used to illuminate international holidays and other events, creating an open-air light show that can be seen from across the Bay."
+    },
+        "info": 
+            {
+                "height": "283m",
+                "year": "1988",
+                "rate": 4,
+                "length": "3.911m",
+                "visited": "224.114"
+            },
+        "map" : "34.61764486150996, 135.02164291010533",
+        "transportation": 
+            {
+                "flight1": "Kansai International Airport",
+                "flight2": "Kobe Airport",
+                "bus1": "Maiko Eki mae Bus Station",
+                "bus2": "Kosoku Maiko Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://www.jb-honshi.co.jp/english/bridgeworld/index.html",
+                "download": "27.pdf"
+            }
+    },
+    {
+        "id": 28,
+        "name": "Yi Sun-sin Bridge",
+        "country": "SOUTH KOREA",
+        "category": "longest",
+        "image": "32.jpg",
+        "description": "The 5th impressive suspension bridge of the world, connecting Myodo-dong and Gwangyang, this has a height of 890 ft. This is named after the Korean admiral Yi Sun-sin, who was also known for building the “Turtle ship”, the first ironclad warship ever made. It was opened in 2012 for the public.",
+        "fulldescription":{
+            "h1":"TheYi Sun-sin Bridge",
+            "p2":"Yi Sun-sin Bridge (Korean: 이순신대교) is located on the southern coast of Korea. It connects Yeosu and Gwangyang, giving Yeosu's industrial area an external gateway.",
+            "h2":"History of Yi Sun-sin Bridge",
+            "p4":"Yi Sun-sin is a famous Korean admiral. Born in 1545, he is famous for his victory in the war with Japan and began building the first battleship. Next to the bridge is a bridge museum.",
+            "p5":"Its main span length is 5,069 ft (1,545 m), making it one of the longest suspension bridges in the world.",
+            "p6":"Construction began in November 2007 and in 2012, the bridge leading to the Lishui World Expo was opened. The length of the bridge is 1.4 mi (2.3 km) and the longest span is 5,069 ft (1,545 m). The bridge tower is 886 ft (270 m) high and the deck height is 262 ft (80 m). The deck width is 89 ft (27 m).",
+            "p7":"In 2006, the bridge began to design the profile. In 2007, the bridge design was completed. In November 2007, the construction of the bridge began. On May 12, 2012, the bridge was inaugurated for Lishui Expo 2012. In 2013, the bridge was shortlisted for the Outstanding SThe bridge was designed by Yooshin Company and built by Daelim Industrial Company. The length of the bridge is 1.4 mi (2.3 km). The bridge is a three-span suspension bridge with a span of 357.5m + 1,545m + 357.5m, with a total length of 1.4 mi (2.3 km). The concrete tower is H-shaped, 886 ft (270 m) high. and is one of the tallest bridge towers in the world. The height from sea level to the deck bottom is approximately 262 ft (80 m), allowing the world's largest container ship to safely cross the bridge. The deck width is 89 ft (27 m). One pillar is 272m high and took 11 months to build, and the other 254m high took 30 months."
+    },
+        "info": 
+            {
+                "height": "207m",
+                "year": "2007",
+                "rate": 3,
+                "length": "2.260m",
+                "visited": "154.541"
+            },
+        "map" : "34.9049, 127.7049",
+        "transportation": 
+            {
+                "flight1": "Yeosu Airport",
+                "flight2": "Sacheon Airport",
+                "bus1": "도독마을회관 Bus Station",
+                "bus2": "도독마을회관 Bus Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Yi_Sun-sin_Bridge",
+                "download": "28.pdf"
+            }
+    },
+    {
+        "id": 29,
+        "name": "Duge Bridge",
+        "country": "CHINA",
+        "category": "impressive",
+        "image": "33.jpg",
+        "description": "The 883 ft long bridge is a cable-stayed bridge. It connects Shuicheng county of Guizhou and Xuanwei city of Yunnan. Locationwise, the bridge is near Liupanshui and holds the record of the highest one in the world featuring road deck for more than 1,850 feet above a river, namely Beipan River.",
+        "fulldescription":{
+            "h1":"The Duge Bridge",
+            "p2":"Duge Bridge , also known as North Panjiang Bridge, is a 4-lane wild rope bridge on the border between Guizhou and Yunnan provinces",
+            "h2":"History of Duge Bridge",
+            "p4":"Overcoming all previous spans in height, the new Duge North Ban Giang Bridge was opened in 2016 as the first bridge to overcome the 500 meter high barrier as well as becoming the first inflatable rope bridge. Used to hold the title of the tallest bridge in the world. No other region on earth has as many tall bridges as the province of Guizhou, far west of China, and has no waterways within its borders. many super-high spans than the mighty Beipan River. Translated as Northern Gliding River, the North Panjiang River flows over a North-South rift that cuts west and east of Guizhou. The steep cliffs sink so deep that the riverbed is dark during the day. Distance 50 km Along its length is a collection of monumental road and railway bridges that have surpassed the limits of China's bridge engineering community.",
+            "p5":"Completed in 2016, the G56 Hangrui Expressway is Guizhou's last east-west route, allowing easy access to neighboring Yunnan province in terrain previously inaccessible to conventional cars and trucks. . The entire 4-lane highway stretches for an astonishing 2,935 kilometers from the city of Hanghzou near Shanghai to the Burma border near Tibet. The harsh vertical geography of the G56 has created not only the world's tallest suspension bridge over the Beipanjiang River near Duge, Guizhou, but also one of the world's tallest suspension bridges several kilometers to the west. near Puli, Yunnan. All the madness of this tall bridge began in 2001 when the mighty beast of the Beipan River convened the construction of the world's tallest railway bridge with a span of 275 meters over a gap filled with gravel on the Shuibai Railway. Two years later, that victory was followed by the record of the first road bridge on the Bac Ban Giang bridge river, inaugurated in Quang Hung in 2003, surpassing the height of 300 meters as well as becoming the first suspension bridge in the world. that the world surpassed the height of the Royal Gorge Bridge in Colorado after a value because of 74 years. This was followed by a succession of bridges both high and super-tall including the Beipanjiang Hukun Bridge on the G60 Expressway, the Beipanjiang Bridge on the Shuipan Expressway with the world's third longest span high girder bridge, and the Beipanjiang Highway Bridge. Wang'an Expressway, Beipanjiang Zhenfeng Bridge and Beipanjiang Huajiang Bridge.But in 2016, Beipan brought two gifts as the tallest bridge at the time, the Qinglong Beipanjiang Railway Bridge - the “Speed” railway bridge. tallest” in the world at 295 meters and Duge Bridge belongs to the North Panjiang Bridge at 565 meters. The various technical titles Duge can claim include having the third-longest tempo chain beat and being one of the 25 tallest bridge towers in the world with a top speed of 269 metres. ",
+            "p6":"The span configuration is 80+2x88 +720 +2x88+80 meters. The gap is 8 meters deep with segments 12 meters long. Until 2000, the experience of traveling around Guizhou was an exhausting and arduous one, often taking many days along a network of old two-lane highways full of old traffic. Despite being slightly smaller than the UK or the US state of Washington, this outdated infrastructure has limited the kind of growth that is taking place in the Eastern Provinces where the accessibility. has been steadily and rapidly improving since the early 1990s.",
+            "p7":"The first sign of Guizhou's high construction aspirations appeared in 2001 when the Liuguanghe girder bridge was inaugurated as the world's tallest bridge on a 2-lane highway between the capital Guiyang and the small district of Bijie in Northwest of the province. Over the next 15 years, the construction of the highway came into operation at full capacity with lanes and now six lanes connecting cities big and small no matter how difficult the mountainous terrain may be. which one? The ancients say that there are no three days without rain in Guizhou, no three acres without mountains, and no three coins in your pocket. Maybe they have to amend that and add that there are no three kilometers of highway without an overhead bridge!",
+            "p8":"Today, the province of Guizhou is home to more tall bridges than all the other countries on earth combined. By 2030, Guizhou will have more than 1,000 bridges over 100 meters high from the road or track to the water. Compared to Italy, the country has the second highest demand in the world with only 60 spans exceeding 100 meters in height. All of the 50 super-high spans in the world that exceed 300 meters from the bridge deck to the water are in China, except for three.",
+            "h3":"Science test success",
+            "p9":"Guizhou Expressway Corporation, which is involved in the construction of Duge, has registered 13 patents, 3 construction methods, 2 sets of technical manuals, and 6 software copyrights.",
+            "p10":"Dudge Bridge has completed the scientific research project of the Ministry of Transport of China in the transportation construction process, providing a new construction technology and method for the construction of high-speed wind tunnel construction in China. domains area. 4 by brightness mode and 7 by utility brightness mode."
+    },
+        "info": 
+            {
+                "height": "269m",
+                "year": "2016",
+                "rate": 5,
+                "length": "1.340m",
+                "visited": "245.566"
+            },
+        "map" : "26.592857853662125, 104.83035899638287",
+        "transportation": 
+            {
+                "flight1": "六盘水月照机场",
+                "flight2": "Puli Bridge",
+                "bus1": "N/A",
+                "bus2": "N/A"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Duge_Bridge",
+                "download": "29.pdf"
+            }
+    },
+    {
+        "id": 30,
+        "name": "Jingyue Yangtze River Bridge",
+        "country": "CHINA",
+        "category": "longest",
+        "image": "34.jpg",
+        "description": "The last one of the list is 869 ft high, and technically this is a cable-stayed bridge. Running between Yueyang and Jianli County. It is located above Yangtze River and opened for public in 2010. It is also known as Jingyue Dàqiáo.",
+        "fulldescription":{
+            "h1":"The Jingyue Yangtze River Bridge",
+            "p2":"The Yangtze River Bridge Jingyue (simplified Chinese: 荆岳大桥; traditional Chinese: 荊岳大橋; pinyin: Jīngyuè Dàqiao) is a rope bridge spanning the Yangtze River between Jianli County, Hubei Province and Yue Yang, Hunan Province in central China.",
+            "h2":"History of Jingyue Yangtze River Bridge",
+            "p4":"The bridge was inaugurated in June 2010.There are 6 high speed lanes Suizhou－Yueyang.",
+            "p5":"The design is a cable-stayed bridge. The total length is 5,419 meters (17,779 ft). Height 265 meters (869 ft). The longest distance is 816 meters (2,677 ft)",
+            "p6":"Bridges and tunnels over the Yangtze River carry rail and road traffic across China's longest and largest river and form an important part of the country's transportation infrastructure. The river bisects China from west to east, all highways and north-south railways must cross the Yangtze River. Major urban centers along the river such as Chongqing, Wuhan, and Nanjing also have mass transit urban railways that cross the Yangtze."
+    },
+        "info": 
+            {
+               "height": "266m",
+                "year": "2010",
+                "rate": 4,
+                "length": "5.419m",
+                "visited": "444.467"
+            },
+        "map" : "29.54469111994622, 113.22446741179813",
+        "transportation": 
+            {
+                "flight1": "Yueyang Sanhe Airport",
+                "flight2": "N/A",
+                "bus1": "监利白螺客运站 Bus Station",
+                "bus2": "Bridge Shikeyun Station"
+            },
+        "link": 
+            {
+                "website": "https://en.wikipedia.org/wiki/Jingyue_Yangtze_River_Bridge",
+                "download": "30.pdf"
+            }
+    }
+]

@@ -1,0 +1,26 @@
+<div class="products-4" id="gallery" ng-controller="categoryCtrl">
+      <div id="products4-block" class="text-center">
+          <div class="container">
+              <div class="heading text-center mx-auto mb-5">
+                  <h3 class="head">Amazing Bridges Around The World</h3>
+                  <p class="my-3 head">Most people look at bridges as a means to an end. They connect cities, states and countries, helping people commute to and from their destination. 
+                    But some bridges are mesmerizing wonders that are worth looking at on their own. 
+                    From old stone spans to sweeping modern suspensions, bridges have a way of wowing us.</p>
+                </div>
+  
+                <section id="" class="tab-content text-left" >
+                  <div class="d-grid grid-col-3" >
+                      <div class="product" ng-repeat="x in datalist">
+                          <a href="assets/images/slider/{{x.image}}" data-lightbox="example-set" data-title="{{x.name}} - {{x.country}}">
+                              <img src="assets/images/slider/{{x.image}}" class="img-responsive" alt="" />
+                              {{x.name}}
+                          </a>
+                          '<a href="#!bridges/{{x.id}}"></a>'
+                      </div>
+                      
+                  </div>
+              </section>
+          </div>
+      </div>
+</div>
+
