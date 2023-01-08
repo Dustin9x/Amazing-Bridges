@@ -1,4 +1,4 @@
-var app = angular.module("myApp", ["ngRoute","ngMap","ui.bootstrap","myApp.paginate-filter"]);
+var app = angular.module("myApp", ["ngRoute","ui.bootstrap","myApp.paginate-filter"]);
 app.config(function($routeProvider) {
     $routeProvider
     .when("/", {
