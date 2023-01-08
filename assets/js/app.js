@@ -11,7 +11,7 @@ app.config(function($routeProvider) {
     })
     .when("/bridges/:id", {
         templateUrl : "bridges.html",
-        controller: "bridgedetailCtrl"
+        controller: "bridgedetailCtrl, categoryCtrl, commentCtrl"
     })
     .when("/gallery", {
         templateUrl : "gallery.html"
