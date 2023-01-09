@@ -88,7 +88,7 @@
 .lb-nav a.lb-prev {
   width: 3em;
   float: left;
-  background: url(/assets/images/icons/img-sprite.png) 36px 48% no-repeat;
+  background: url(../images/icons/img-sprite.png) 36px 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   transition: opacity 0.6s; }
@@ -101,7 +101,7 @@
   width: 3em;
   right: 0;
   float: right;
-  background: url(/assets/images/icons/img-sprite.png) -23px 48% no-repeat;
+  background: url(../images/icons/img-sprite.png) -23px 48% no-repeat;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
   opacity: 0;
   transition: opacity 0.6s; }
