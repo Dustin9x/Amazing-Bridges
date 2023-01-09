@@ -1,0 +1,39 @@
+<div class="container" ng-controller="categoryCtrl">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="toolbar_wrapper">
+          <h5>Sort By: </h5>
+          <div class="select_option">
+              <select lass="form-select" name="orderby" ng-model="sortProduct">
+                  <option value="" selected disabled hidden>Choose here</option>
+                  <option value="name">Sort by Name: A-Z</option>
+                  <option value="-name">Sort by Name: Z-A</option>
+                  <option value="-info.rate">Sort by User Rating</option>
+              </select>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <a class="col-lg-4" href="#!bridges/{{x.id}}" ng-repeat="x in datalist | filter: searchFilter | filter: filters | orderBy: sortProduct | paginate:currentPage:pageSize">
+      <div class="cardarticle">
+        <p class="category-tag {{x.category}}">{{x.category}}</p>
+        <img class="banner-img" src='./assets/images/slider/{{x.image}}' alt=''>
+        <div class="cardarticle-body">
+          <b>{{x.name}}</b>
+          <div class="subinfo">
+            <h6 style="margin: 0">{{x.country}}</h6>
+            <div class="starsrating">
+              <li class="empty" ng-repeat="r in getRepeater() track by $index" ng-class="{'full': ($index + 1) <= x.info.rate, 'half': ($index + .5) == x.info.rate}"></li>
+            </div>
+          </div>
+          <p>{{x.description}}</p>
+        </div>
+      </div>
+    </a>
+  </div>
+
+  <div class="pagi-control">
+    <ul uib-pagination boundary-links="true" total-items="(datalist | filter: searchFilter | filter: filters).length" ng-model="currentPage" class="pagination-sm" previous-text="&lsaquo;" next-text="&rsaquo;" first-text="&laquo;" last-text="&raquo;" items-per-page="pageSize"></ul>
+  </div>
+</div>
