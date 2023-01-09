@@ -23,7 +23,7 @@ eProject documentation at: https://github.com/Dustin9x/Amazing-Bridges/tree/mast
 
 ============================
 
-eProject published at: https://github.com/Dustin9x/Amazing-Bridges/tree/master
+eProject published at: https://dustin9x.github.io/Amazing-Bridges/index.html#!/
 
 ============================
 
