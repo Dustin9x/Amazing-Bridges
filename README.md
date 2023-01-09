@@ -55,7 +55,7 @@ WAYS TO GREAT THINGS
 
 2) Explore our dedicated website: https://dustin9x.github.io/Amazing-Bridges/index.html#!/
 
-3) Review - Documents: https://github.com/Dustin9x/Amazing-Bridges/tree/master
+3) Review - Documents: https://github.com/Dustin9x/Amazing-Bridges/tree/master/Review%20Group%203
 
 4) Source code files: https://www.mediafire.com/file/lrom7abr1z5k977/Amazing+Bridges.zip/file
 
