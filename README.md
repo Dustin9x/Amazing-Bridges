@@ -2,7 +2,9 @@
 AMAZING BRIDGES
 Check out the most iconic bridges around the world.
 
-![image](https://user-images.githubusercontent.com/116355841/211321755-f36ed75d-4374-4e18-b984-35a06ae5de45.png)
+![image](https://user-images.githubusercontent.com/116355841/211323340-4f83fcf7-c4d3-4da5-86a2-138142a77362.png)
+![image](https://user-images.githubusercontent.com/116355841/211323415-618bd251-6e5f-4899-9a13-068cab0e191d.png)
+
 
 *************************************
 WELCOME TO OUR PROJECT
