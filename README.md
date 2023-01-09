@@ -27,25 +27,25 @@ FUNCTIONS OF THE WEB
 
 The Website is to be created based on the following requirements:
 
-1.The Home Page should be created making use of Sections with a suitable logo, the header section can be added which will show images of famous bridges.
+1. The Home Page should be created making use of Sections with a suitable logo, the header section can be added which will show images of famous bridges.
 
-2.The site must contain the links to navigate through any category for the information.
+2. The site must contain the links to navigate through any category for the information.
 
-3.Links of monuments can be categorized by zone wise like (Longest, Tallest, Highest, Oldest, Most Visited, etc.) apart from country wise link can be added.
+3. Links of monuments can be categorized by zone wise like (Longest, Tallest, Highest, Oldest, Most Visited, etc.) apart from country wise link can be added.
 
-4.Clicking on any monument should open the page about the monument with it’s location displayed using GeoLocation API on the maps.
+4. Clicking on any monument should open the page about the monument with it’s location displayed using GeoLocation API on the maps.
 
-5.History and information of the bridges can be added along with the images.
+5. History and information of the bridges can be added along with the images.
 
-6.Gallery section can be added for viewing different images.
+6. Gallery section can be added for viewing different images.
 
-7.Feedback must be allowed to enter by the viewer.
+7. Feedback must be allowed to enter by the viewer.
 
-8.Site map, Gallery, about us, Queries link, Contact us link must be added.
+8. Site map, Gallery, about us, Queries link, Contact us link must be added.
 
-9.The complete historic reason and its description must be allowed to get download as PDF or DOC file.
+9. The complete historic reason and its description must be allowed to get download as PDF or DOC file.
 
-10.The advertise section of bus, flights can be included for reaching the places.
+10. The advertise section of bus, flights can be included for reaching the places.
 
 *************************************
 WAYS TO GREAT THINGS
@@ -55,7 +55,7 @@ WAYS TO GREAT THINGS
 
 2) Explore our dedicated website: https://dustin9x.github.io/Amazing-Bridges/index.html#!/
 
-3) Review - Documents: https://github.com/Dustin9x/Amazing-Bridges/tree/master
+3) Review - Documents: https://github.com/Dustin9x/Amazing-Bridges/tree/master/Review%20Group%203
 
 4) Source code files: https://www.mediafire.com/file/lrom7abr1z5k977/Amazing+Bridges.zip/file
 
