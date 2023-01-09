@@ -19,7 +19,7 @@ Group members Name Student ID
                     Huỳnh Ngọc Huy            Student1420714
 ============================
 
-eProject documentation at: https://github.com/Dustin9x/Amazing-Bridges/tree/master/Review%20Group%203
+eProject documentation at: https://github.com/Dustin9x/Amazing-Bridges/tree/master
 
 ============================
 
