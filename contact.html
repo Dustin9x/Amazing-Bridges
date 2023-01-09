@@ -1,0 +1,59 @@
+<div class="axil-banner banner-style-1 bg_image bg_image--4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="inner">
+                    <h1 class="title">Contact Us</h1>
+                    <p class="description">Wherever & whenever you need us. We are here for you – contact us for all your support needs.
+                        be it technical, general queries or information support.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container mt--70">
+    <div class="row">
+        <div class="col-lg-12 col-xl-12">
+            <div class="axil-about-us">
+                <div class="inner">
+                    <h2>Say Hello! </h2>
+                    <p>Need to get in touch with the team? We’re all ears.</p>
+                    <p>Email: <a href="#">aptechteam3@gmail.com</a></p>
+                </div>
+                <!-- Start Contact Form  -->
+                <div class="axil-section-gapTop axil-contact-form-area">
+                    <h4 class="title mb--10">Send Us a Message</h4>
+                    <p class="b3 mb--30">Your email address will not be published. All the fields are required.</p>
+                    <form id="contact-form" class="axil-contact-form contact-form--1 row">
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="form-group">
+                                <label for="contact-name">Your Name</label>
+                                <input name="contact-name" id="contact-name" type="text" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="form-group">
+                                <label>Your Email</label>
+                                <input for="contact-email" name="contact-email" id="contact-email" type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" onchange="checkEmail()">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="contact-message">Your Message</label>
+                                <textarea name="contact-message" id="contact-message" required></textarea>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="form-submit axil-button button-rounded hover-flip-item-wrapper" id="toast-trigger" onclick="checkEmpty()">
+                                <span class="hover-flip-item">
+                                    <span data-text="Submit">Submit</span>
+                                </span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
