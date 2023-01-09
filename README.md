@@ -27,7 +27,7 @@ eProject published at: https://dustin9x.github.io/Amazing-Bridges/index.html#!/
 
 ============================
 
-eProject video published at: https://www.youtube.com/watch?v=LYYNvTrkuWM
+eProject video published at: https://www.youtube.com/watch?v=V548SS7EVqI
 
 ============================
 
