@@ -63,10 +63,10 @@ WAYS TO GREAT THINGS
 COLLABORATORS
 *************************************
 
-1) Phạm Huy Hoàng            Student1421362
-2) Trần Gia Toàn             Student1416122
-3) Trịnh Tiến Đạt            Student1420705
-4) Huỳnh Ngọc Huy            Student1420714
+1) Phạm Huy Hoàng - Student1421362
+2) Trần Gia Toàn - Student1416122
+3) Trịnh Tiến Đạt - Student1420705
+4) Huỳnh Ngọc Huy - Student1420714
 
 *************************************
 INSTRUCTOR
