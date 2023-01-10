@@ -105,17 +105,17 @@
             <div class="comment-respond">
                 <h3 class="head mt--20">Post a comment</h3>
                 <form>
-                    <p class="comment-notes"><span id="email-notes">Your email address will not be published.</span></p>
+                    <p class="comment-notes"><span id="email-notes">(*) is required information. Your email address will not be published.</span></p>
                     <div class="row row--10">
                         <div class="col-lg-4 col-md-4 col-12">
                             <div class="form-group">
-                                <label for="name">Your Name</label>
+                                <label for="name">Your Name (*)</label>
                                 <input id="guestname" type="text" required>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-12">
                             <div class="form-group">
-                                <label for="email">Your Email</label>
+                                <label for="email">Your Email (*)</label>
                                 <input id="email" type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" onchange="checkEmail()">
                             </div>
                         </div>
@@ -136,7 +136,7 @@
                         </div>
                         <div class="col-12">
                             <div class="form-group">
-                                <label for="message">Leave a Reply</label>
+                                <label for="message">Leave a Reply (*)</label>
                                 <textarea id="guestmessage" name="message" required></textarea>
                             </div>
                         </div>
