@@ -11659,6 +11659,11 @@ body.active-dark-mode .form-group input {
   color: #ffffff;
 }
 
+body.active-dark-mode .form-group textarea {
+  background-color: #3f3f3f;
+  color: #ffffff;
+}
+
 body.active-dark-mode ul li {
   color: #878787;
 }
