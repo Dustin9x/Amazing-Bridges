@@ -104,19 +104,19 @@
             <!-- Start Comment Respond  -->
             <div class="comment-respond">
                 <h3 class="head mt--20">Post a comment</h3>
-                <form action="#">
+                <form>
                     <p class="comment-notes"><span id="email-notes">Your email address will not be published.</span></p>
                     <div class="row row--10">
                         <div class="col-lg-4 col-md-4 col-12">
                             <div class="form-group">
                                 <label for="name">Your Name</label>
-                                <input id="name" type="text">
+                                <input id="guestname" type="text" required>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-12">
                             <div class="form-group">
                                 <label for="email">Your Email</label>
-                                <input id="email" type="email">
+                                <input id="email" type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" onchange="checkEmail()">
                             </div>
                         </div>
                         <div class="product_ratting mb-10" >
@@ -137,13 +137,15 @@
                         <div class="col-12">
                             <div class="form-group">
                                 <label for="message">Leave a Reply</label>
-                                <textarea id="message" name="message"></textarea>
+                                <textarea id="guestmessage" name="message" required></textarea>
                             </div>
                         </div>
                         <div class="col-lg-12">
-                            <div class="form-submit cerchio float-right">
-                                <input name="submit" type="submit" id="submit" class="axil-button button-rounded" value="Post Comment">
-                            </div>
+                            <button type="submit" class="form-submit axil-button button-rounded hover-flip-item-wrapper" style="width:250px;text-align:center" id="toast-trigger" onclick="event.preventDefault(); checkComment('Thank you! Your comment is awaiting moderation.','warning')">
+                                <span class="hover-flip-item">
+                                    <span data-text="Post Comment">Post Comment</span>
+                                </span>
+                            </button>
                         </div>
                     </div>
                 </form>
