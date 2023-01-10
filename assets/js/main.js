@@ -169,8 +169,8 @@ function validateForm() {
     }
   }
 
-  function checkEmail() {
-    var email = document.getElementById('contact-email').checkValidity();
+ function checkEmail() {
+    var email = document.getElementById('email').checkValidity();
     if (email) {
         return;
     } else {
@@ -178,35 +178,39 @@ function validateForm() {
     }
 }
 
-function checkEmpty() {
-if ($("#contact-name").val() == "" || $("#contact-email").val() == "" || $("#contact-message").val() == "") {
+function checkEmpty(message,type) {
+if ($("#contact-name").val() == "" || $("#email").val() == "" || $("#contact-message").val() == "") {
     errorMessage="Please input all required information";
     alert(errorMessage)
   }
   else {
-        toast = document.querySelector(".toast");
-        (closeIcon = document.querySelector(".close")),
-        (progress = document.querySelector(".progress"));
-        let timer1, timer2;
-        toast.classList.add("active");
-        progress.classList.add("active");
-        document.querySelector('.toast:not(.show)').style.display = 'block';
-        timer1 = setTimeout(() => {
-            toast.classList.remove("active");
-        }, 5000); //1s = 1000 milliseconds
-        timer2 = setTimeout(() => {
-            progress.classList.remove("active");
-        }, 5300);
-        closeIcon.addEventListener("click", () => {
-        toast.classList.remove("active");
-        setTimeout(() => {
-            progress.classList.remove("active");
-        }, 300);
-        clearTimeout(timer1);
-        clearTimeout(timer2);
-        });
-    
+        var toastPop = function() {
+            var toastCode = '<div class="toast ' + type + '">';
+                    toastCode += message;
+                    toastCode += '</div>';
+            
+            $( ".toastWrap" ).prepend(toastCode);
+            document.querySelector('.toast:not(.show)').style.display = 'block';
+        }
+        toastPop();
     };
 };
 
+function checkComment(message,type) {
+    if ($("#guestname").val() == "" || $("#email").val() == "" || $("#guestmessage").val() == "") {
+        errorMessage="Please input all required information";
+        alert(errorMessage)
+      }
+      else {
+            var toastPop = function() {
+                var toastCode = '<div class="toast ' + type + '">';
+                        toastCode += message;
+                        toastCode += '</div>';
+                
+                $( ".toastWrap" ).prepend(toastCode);
+                document.querySelector('.toast:not(.show)').style.display = 'block';
+            }
+            toastPop();
+        };
+    };
 
