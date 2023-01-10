@@ -34,7 +34,7 @@
                         <div class="col-lg-4 col-md-4 col-12">
                             <div class="form-group">
                                 <label>Your Email</label>
-                                <input for="contact-email" name="contact-email" id="contact-email" type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" onchange="checkEmail()">
+                                <input for="email" name="contact-email" id="email" type="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" onchange="checkEmail()">
                             </div>
                         </div>
                         <div class="col-12">
@@ -44,7 +44,7 @@
                             </div>
                         </div>
                         <div class="col-12">
-                            <button type="submit" class="form-submit axil-button button-rounded hover-flip-item-wrapper" style="width:150px;text-align:center" id="toast-trigger" onclick="checkEmpty()">
+                            <button type="submit" class="form-submit axil-button button-rounded hover-flip-item-wrapper" style="width:150px;text-align:center" id="toast-trigger" onclick="checkEmpty('Your message has been sent successfully!','success')">
                                 <span class="hover-flip-item">
                                     <span data-text="Submit">Submit</span>
                                 </span>
